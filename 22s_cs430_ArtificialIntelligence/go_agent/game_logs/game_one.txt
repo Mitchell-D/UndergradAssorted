@@ -1,0 +1,2315 @@
+<class 'gogame.goboard_slow.GameState'>
+
+    *--------------------*
+  9 | . . . . . . . . . |
+  8 | . . . . . . . . . |
+  7 | . . . . . . . . . |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | . . . . . . . . . |
+  3 | . . . . . . . . . |
+  2 | . . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=5), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=7), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=3), Point(row=3, col=4), Point(row=3, col=5), Point(row=3, col=6), Point(row=3, col=7), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=2), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=5), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=2), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=2), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=5), Point(row=7, col=6), Point(row=7, col=7), Point(row=7, col=8), Point(row=7, col=9), Point(row=8, col=1), Point(row=8, col=2), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=8, col=9), Point(row=9, col=1), Point(row=9, col=2), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=5), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=8), Point(row=9, col=9)]
+Turn 1 Player.black (x) places at I/7
+
+    *--------------------*
+  9 | . . . . . . . . . |
+  8 | . . . . . . . . . |
+  7 | . . . . . . . . o |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | . . . . . . . . . |
+  3 | . . . . . . . . . |
+  2 | . . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=5), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=7), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=3), Point(row=3, col=4), Point(row=3, col=5), Point(row=3, col=6), Point(row=3, col=7), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=2), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=5), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=2), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=2), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=5), Point(row=7, col=6), Point(row=7, col=7), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=2), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=8, col=9), Point(row=9, col=1), Point(row=9, col=2), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=5), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=8), Point(row=9, col=9)]
+Turn 2 Player.white (o) places at G/7
+
+    *--------------------*
+  9 | . . . . . . . . . |
+  8 | . . . . . . . . . |
+  7 | . . . . . . x . o |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | . . . . . . . . . |
+  3 | . . . . . . . . . |
+  2 | . . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=5), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=7), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=3), Point(row=3, col=4), Point(row=3, col=5), Point(row=3, col=6), Point(row=3, col=7), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=2), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=5), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=2), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=2), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=5), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=2), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=8, col=9), Point(row=9, col=1), Point(row=9, col=2), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=5), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=8), Point(row=9, col=9)]
+Turn 3 Player.black (x) places at H/9
+
+    *--------------------*
+  9 | . . . . . . . o . |
+  8 | . . . . . . . . . |
+  7 | . . . . . . x . o |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | . . . . . . . . . |
+  3 | . . . . . . . . . |
+  2 | . . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=5), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=7), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=3), Point(row=3, col=4), Point(row=3, col=5), Point(row=3, col=6), Point(row=3, col=7), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=2), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=5), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=2), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=2), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=5), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=2), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=8, col=9), Point(row=9, col=1), Point(row=9, col=2), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=5), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 4 Player.white (o) places at E/3
+
+    *--------------------*
+  9 | . . . . . . . o . |
+  8 | . . . . . . . . . |
+  7 | . . . . . . x . o |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | . . . . . . . . . |
+  3 | . . . . x . . . . |
+  2 | . . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=5), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=7), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=3), Point(row=3, col=4), Point(row=3, col=6), Point(row=3, col=7), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=2), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=5), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=2), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=2), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=5), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=2), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=8, col=9), Point(row=9, col=1), Point(row=9, col=2), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=5), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 5 Player.black (x) places at E/7
+
+    *--------------------*
+  9 | . . . . . . . o . |
+  8 | . . . . . . . . . |
+  7 | . . . . o . x . o |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | . . . . . . . . . |
+  3 | . . . . x . . . . |
+  2 | . . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=5), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=7), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=3), Point(row=3, col=4), Point(row=3, col=6), Point(row=3, col=7), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=2), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=5), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=2), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=2), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=2), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=8, col=9), Point(row=9, col=1), Point(row=9, col=2), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=5), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 6 Player.white (o) places at I/8
+
+    *--------------------*
+  9 | . . . . . . . o . |
+  8 | . . . . . . . . x |
+  7 | . . . . o . x . o |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | . . . . . . . . . |
+  3 | . . . . x . . . . |
+  2 | . . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=5), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=7), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=3), Point(row=3, col=4), Point(row=3, col=6), Point(row=3, col=7), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=2), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=5), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=2), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=2), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=2), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=1), Point(row=9, col=2), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=5), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 7 Player.black (x) places at C/3
+
+    *--------------------*
+  9 | . . . . . . . o . |
+  8 | . . . . . . . . x |
+  7 | . . . . o . x . o |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | . . . . . . . . . |
+  3 | . . o . x . . . . |
+  2 | . . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=5), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=7), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=4), Point(row=3, col=6), Point(row=3, col=7), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=2), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=5), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=2), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=2), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=2), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=1), Point(row=9, col=2), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=5), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 8 Player.white (o) places at G/3
+
+    *--------------------*
+  9 | . . . . . . . o . |
+  8 | . . . . . . . . x |
+  7 | . . . . o . x . o |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | . . . . . . . . . |
+  3 | . . o . x . x . . |
+  2 | . . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=5), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=7), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=4), Point(row=3, col=6), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=2), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=5), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=2), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=2), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=2), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=1), Point(row=9, col=2), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=5), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 9 Player.black (x) places at E/1
+
+    *--------------------*
+  9 | . . . . . . . o . |
+  8 | . . . . . . . . x |
+  7 | . . . . o . x . o |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | . . . . . . . . . |
+  3 | . . o . x . x . . |
+  2 | . . . . . . . . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=7), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=4), Point(row=3, col=6), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=2), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=5), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=2), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=2), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=2), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=1), Point(row=9, col=2), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=5), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 10 Player.white (o) places at B/4
+
+    *--------------------*
+  9 | . . . . . . . o . |
+  8 | . . . . . . . . x |
+  7 | . . . . o . x . o |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | . x . . . . . . . |
+  3 | . . o . x . x . . |
+  2 | . . . . . . . . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=7), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=4), Point(row=3, col=6), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=5), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=2), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=2), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=2), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=1), Point(row=9, col=2), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=5), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 11 Player.black (x) places at B/8
+
+    *--------------------*
+  9 | . . . . . . . o . |
+  8 | . o . . . . . . x |
+  7 | . . . . o . x . o |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | . x . . . . . . . |
+  3 | . . o . x . x . . |
+  2 | . . . . . . . . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=7), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=4), Point(row=3, col=6), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=5), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=2), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=2), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=1), Point(row=9, col=2), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=5), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 12 Player.white (o) places at E/4
+
+    *--------------------*
+  9 | . . . . . . . o . |
+  8 | . o . . . . . . x |
+  7 | . . . . o . x . o |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | . x . . x . . . . |
+  3 | . . o . x . x . . |
+  2 | . . . . . . . . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=7), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=4), Point(row=3, col=6), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=2), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=2), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=1), Point(row=9, col=2), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=5), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 13 Player.black (x) places at A/9
+
+    *--------------------*
+  9 | o . . . . . . o . |
+  8 | . o . . . . . . x |
+  7 | . . . . o . x . o |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | . x . . x . . . . |
+  3 | . . o . x . x . . |
+  2 | . . . . . . . . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=7), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=4), Point(row=3, col=6), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=2), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=2), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=2), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=5), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 14 Player.white (o) places at F/3
+
+    *--------------------*
+  9 | o . . . . . . o . |
+  8 | . o . . . . . . x |
+  7 | . . . . o . x . o |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | . x . . x . . . . |
+  3 | . . o . x x x . . |
+  2 | . . . . . . . . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=7), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=4), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=2), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=2), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=2), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=5), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 15 Player.black (x) places at G/2
+
+    *--------------------*
+  9 | o . . . . . . o . |
+  8 | . o . . . . . . x |
+  7 | . . . . o . x . o |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | . x . . x . . . . |
+  3 | . . o . x x x . . |
+  2 | . . . . . . o . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=4), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=2), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=2), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=2), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=5), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 16 Player.white (o) places at B/5
+
+    *--------------------*
+  9 | o . . . . . . o . |
+  8 | . o . . . . . . x |
+  7 | . . . . o . x . o |
+  6 | . . . . . . . . . |
+  5 | . x . . . . . . . |
+  4 | . x . . x . . . . |
+  3 | . . o . x x x . . |
+  2 | . . . . . . o . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=4), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=2), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=2), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=5), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 17 Player.black (x) places at B/9
+
+    *--------------------*
+  9 | o o . . . . . o . |
+  8 | . o . . . . . . x |
+  7 | . . . . o . x . o |
+  6 | . . . . . . . . . |
+  5 | . x . . . . . . . |
+  4 | . x . . x . . . . |
+  3 | . . o . x x x . . |
+  2 | . . . . . . o . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=4), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=2), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=5), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 18 Player.white (o) places at B/7
+
+    *--------------------*
+  9 | o o . . . . . o . |
+  8 | . o . . . . . . x |
+  7 | . x . . o . x . o |
+  6 | . . . . . . . . . |
+  5 | . x . . . . . . . |
+  4 | . x . . x . . . . |
+  3 | . . o . x x x . . |
+  2 | . . . . . . o . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=4), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=5), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 19 Player.black (x) places at E/9
+
+    *--------------------*
+  9 | o o . . o . . o . |
+  8 | . o . . . . . . x |
+  7 | . x . . o . x . o |
+  6 | . . . . . . . . . |
+  5 | . x . . . . . . . |
+  4 | . x . . x . . . . |
+  3 | . . o . x x x . . |
+  2 | . . . . . . o . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=4), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=4), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 20 Player.white (o) places at D/4
+
+    *--------------------*
+  9 | o o . . o . . o . |
+  8 | . o . . . . . . x |
+  7 | . x . . o . x . o |
+  6 | . . . . . . . . . |
+  5 | . x . . . . . . . |
+  4 | . x . x x . . . . |
+  3 | . . o . x x x . . |
+  2 | . . . . . . o . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=4), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=3), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 21 Player.black (x) places at C/6
+
+    *--------------------*
+  9 | o o . . o . . o . |
+  8 | . o . . . . . . x |
+  7 | . x . . o . x . o |
+  6 | . . o . . . . . . |
+  5 | . x . . . . . . . |
+  4 | . x . x x . . . . |
+  3 | . . o . x x x . . |
+  2 | . . . . . . o . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=4), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=1), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 22 Player.white (o) places at A/8
+
+    *--------------------*
+  9 | o o . . o . . o . |
+  8 | x o . . . . . . x |
+  7 | . x . . o . x . o |
+  6 | . . o . . . . . . |
+  5 | . x . . . . . . . |
+  4 | . x . x x . . . . |
+  3 | . . o . x x x . . |
+  2 | . . . . . . o . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=4), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=1), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 23 Player.black (x) places at A/6
+
+    *--------------------*
+  9 | o o . . o . . o . |
+  8 | x o . . . . . . x |
+  7 | . x . . o . x . o |
+  6 | o . o . . . . . . |
+  5 | . x . . . . . . . |
+  4 | . x . x x . . . . |
+  3 | . . o . x x x . . |
+  2 | . . . . . . o . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba245f2590>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba245f24d0>
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=3), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=4), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 24 Player.white (o) places at C/2
+
+    *--------------------*
+  9 | o o . . o . . o . |
+  8 | x o . . . . . . x |
+  7 | . x . . o . x . o |
+  6 | o . o . . . . . . |
+  5 | . x . . . . . . . |
+  4 | . x . x x . . . . |
+  3 | . . o . x x x . . |
+  2 | . . x . . . o . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=4), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 25 Player.black (x) places at D/3
+
+    *--------------------*
+  9 | o o . . o . . o . |
+  8 | x o . . . . . . x |
+  7 | . x . . o . x . o |
+  6 | o . o . . . . . . |
+  5 | . x . . . . . . . |
+  4 | . x . x x . . . . |
+  3 | . . o o x x x . . |
+  2 | . . x . . . o . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba245f2920>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba245f2800>
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=5, col=9), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 26 Player.white (o) places at I/5
+
+    *--------------------*
+  9 | o o . . o . . o . |
+  8 | x o . . . . . . x |
+  7 | . x . . o . x . o |
+  6 | o . o . . . . . . |
+  5 | . x . . . . . . x |
+  4 | . x . x x . . . . |
+  3 | . . o o x x x . . |
+  2 | . . x . . . o . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=6), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 27 Player.black (x) places at F/2
+
+    *--------------------*
+  9 | o o . . o . . o . |
+  8 | x o . . . . . . x |
+  7 | . x . . o . x . o |
+  6 | o . o . . . . . . |
+  5 | . x . . . . . . x |
+  4 | . x . x x . . . . |
+  3 | . . o o x x x . . |
+  2 | . . x . . o o . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba245f37c0>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba245f34c0>
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=7), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 28 Player.white (o) places at G/4
+
+    *--------------------*
+  9 | o o . . o . . o . |
+  8 | x o . . . . . . x |
+  7 | . x . . o . x . o |
+  6 | o . o . . . . . . |
+  5 | . x . . . . . . x |
+  4 | . x . x x . x . . |
+  3 | . . o o x x x . . |
+  2 | . . x . . o o . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=7, col=8), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 29 Player.black (x) places at H/7
+
+    *--------------------*
+  9 | o o . . o . . o . |
+  8 | x o . . . . . . x |
+  7 | . x . . o . x o o |
+  6 | o . o . . . . . . |
+  5 | . x . . . . . . x |
+  4 | . x . x x . x . . |
+  3 | . . o o x x x . . |
+  2 | . . x . . o o . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463c040>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463c100>
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=4), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 30 Player.white (o) places at D/2
+
+    *--------------------*
+  9 | o o . . o . . o . |
+  8 | x o . . . . . . x |
+  7 | . x . . o . x o o |
+  6 | o . o . . . . . . |
+  5 | . x . . . . . . x |
+  4 | . x . x x . x . . |
+  3 | . . o o x x x . . |
+  2 | . . x x . o o . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=7), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 31 Player.black (x) places at G/5
+
+    *--------------------*
+  9 | o o . . o . . o . |
+  8 | x o . . . . . . x |
+  7 | . x . . o . x o o |
+  6 | o . o . . . . . . |
+  5 | . x . . . . o . x |
+  4 | . x . x x . x . . |
+  3 | . . o o x x x . . |
+  2 | . . x x . o o . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463cb50>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463c910>
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=7), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 32 Player.white (o) places at G/8
+
+    *--------------------*
+  9 | o o . . o . . o . |
+  8 | x o . . . . x . x |
+  7 | . x . . o . x o o |
+  6 | o . o . . . . . . |
+  5 | . x . . . . o . x |
+  4 | . x . x x . x . . |
+  3 | . . o o x x x . . |
+  2 | . . x x . o o . . |
+  1 | . . . . o . . . . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=1, col=9), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 33 Player.black (x) places at I/1
+
+    *--------------------*
+  9 | o o . . o . . o . |
+  8 | x o . . . . x . x |
+  7 | . x . . o . x o o |
+  6 | o . o . . . . . . |
+  5 | . x . . . . o . x |
+  4 | . x . x x . x . . |
+  3 | . . o o x x x . . |
+  2 | . . x x . o o . . |
+  1 | . . . . o . . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463d4e0>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463d300>
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=6, col=9), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 34 Player.white (o) places at I/6
+
+    *--------------------*
+  9 | o o . . o . . o . |
+  8 | x o . . . . x . x |
+  7 | . x . . o . x o o |
+  6 | o . o . . . . . x |
+  5 | . x . . . . o . x |
+  4 | . x . x x . x . . |
+  3 | . . o o x x x . . |
+  2 | . . x x . o o . . |
+  1 | . . . . o . . . o |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=4), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 35 Player.black (x) places at D/5
+
+    *--------------------*
+  9 | o o . . o . . o . |
+  8 | x o . . . . x . x |
+  7 | . x . . o . x o o |
+  6 | o . o . . . . . x |
+  5 | . x . o . . o . x |
+  4 | . x . x x . x . . |
+  3 | . . o o x x x . . |
+  2 | . . x x . o o . . |
+  1 | . . . . o . . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463d210>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463d210>
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=3), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 36 Player.white (o) places at C/8
+
+    *--------------------*
+  9 | o o . . o . . o . |
+  8 | x o x . . . x . x |
+  7 | . x . . o . x o o |
+  6 | o . o . . . . . x |
+  5 | . x . o . . o . x |
+  4 | . x . x x . x . . |
+  3 | . . o o x x x . . |
+  2 | . . x x . o o . . |
+  1 | . . . . o . . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2463e200>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463e200>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2463e200>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2463e0e0>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463e0e0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2463e0e0>
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7), Point(row=9, col=9)]
+Turn 37 Player.black (x) places at I/9
+
+    *--------------------*
+  9 | o o . . o . . o o |
+  8 | x o x . . . x . x |
+  7 | . x . . o . x o o |
+  6 | o . o . . . . . x |
+  5 | . x . o . . o . x |
+  4 | . x . x x . x . . |
+  3 | . . o o x x x . . |
+  2 | . . x x . o o . . |
+  1 | . . . . o . . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463e5c0>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463e7d0>
+Removing Point Point(row=8, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2463e950>
+Removing Point Point(row=8, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2463e7d0>
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=6), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7)]
+Turn 38 Player.white (o) places at F/1
+
+    *--------------------*
+  9 | o o . . o . . o o |
+  8 | x o x . . . x . x |
+  7 | . x . . o . x o o |
+  6 | o . o . . . . . x |
+  5 | . x . o . . o . x |
+  4 | . x . x x . x . . |
+  3 | . . o o x x x . . |
+  2 | . . x x . o o . . |
+  1 | . . . . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2463e680>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463e680>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2463e680>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2463ecb0>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463ecb0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2463ecb0>
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6), Point(row=9, col=7)]
+Turn 39 Player.black (x) places at G/9
+
+    *--------------------*
+  9 | o o . . o . o o o |
+  8 | x o x . . . x . x |
+  7 | . x . . o . x o o |
+  6 | o . o . . . . . x |
+  5 | . x . o . . o . x |
+  4 | . x . x x . x . . |
+  3 | . . o o x x x . . |
+  2 | . . x x . o o . . |
+  1 | . . . . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2463f070>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2463e710>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463f100>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463f190>
+Removing Point Point(row=8, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2463f280>
+Removing Point Point(row=8, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2463f400>
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=8), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 40 Player.white (o) places at H/3
+
+    *--------------------*
+  9 | o o . . o . o o o |
+  8 | x o x . . . x . x |
+  7 | . x . . o . x o o |
+  6 | o . o . . . . . x |
+  5 | . x . o . . o . x |
+  4 | . x . x x . x . . |
+  3 | . . o o x x x x . |
+  2 | . . x x . o o . . |
+  1 | . . . . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2463f8e0>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463f8e0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2463f8e0>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2463f430>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463f430>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2463f430>
+Possible moves: [Point(row=1, col=1), Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 41 Player.black (x) places at A/1
+
+    *--------------------*
+  9 | o o . . o . o o o |
+  8 | x o x . . . x . x |
+  7 | . x . . o . x o o |
+  6 | o . o . . . . . x |
+  5 | . x . o . . o . x |
+  4 | . x . x x . x . . |
+  3 | . . o o x x x x . |
+  2 | . . x x . o o . . |
+  1 | o . . . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2463fca0>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2463fb50>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463fcd0>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2463ff70>
+Removing Point Point(row=8, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2463fc10>
+Removing Point Point(row=8, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2463fb20>
+Possible moves: [Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=3), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 42 Player.white (o) places at C/5
+
+    *--------------------*
+  9 | o o . . o . o o o |
+  8 | x o x . . . x . x |
+  7 | . x . . o . x o o |
+  6 | o . o . . . . . x |
+  5 | . x x o . . o . x |
+  4 | . x . x x . x . . |
+  3 | . . o o x x x x . |
+  2 | . . x x . o o . . |
+  1 | o . . . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468c520>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468c520>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468c520>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468c3d0>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468c3d0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468c3d0>
+Possible moves: [Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=8, col=8), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 43 Player.black (x) places at H/8
+Removing Point Point(row=8, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2468c100>
+
+    *--------------------*
+  9 | o o . . o . o o o |
+  8 | x o x . . . x o . |
+  7 | . x . . o . x o o |
+  6 | o . o . . . . . x |
+  5 | . x x o . . o . x |
+  4 | . x . x x . x . . |
+  3 | . . o o x x x x . |
+  2 | . . x x . o o . . |
+  1 | o . . . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2468c6a0>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2468c280>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468ca60>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468c910>
+8,9 is an eye.
+Possible moves: [Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=7), Point(row=6, col=8), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 44 Player.white (o) places at G/6
+
+    *--------------------*
+  9 | o o . . o . o o o |
+  8 | x o x . . . x o . |
+  7 | . x . . o . x o o |
+  6 | o . o . . . x . x |
+  5 | . x x o . . o . x |
+  4 | . x . x x . x . . |
+  3 | . . o o x x x x . |
+  2 | . . x x . o o . . |
+  1 | o . . . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468ceb0>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468ceb0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468ceb0>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468cbe0>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468cbe0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468cbe0>
+Possible moves: [Point(row=1, col=2), Point(row=1, col=3), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 45 Player.black (x) places at C/1
+
+    *--------------------*
+  9 | o o . . o . o o o |
+  8 | x o x . . . x o . |
+  7 | . x . . o . x o o |
+  6 | o . o . . . x . x |
+  5 | . x x o . . o . x |
+  4 | . x . x x . x . . |
+  3 | . . o o x x x x . |
+  2 | . . x x . o o . . |
+  1 | o . o . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2468d000>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2468d5a0>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468d270>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468d330>
+8,9 is an eye.
+Possible moves: [Point(row=1, col=2), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=4), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 46 Player.white (o) places at D/6
+
+    *--------------------*
+  9 | o o . . o . o o o |
+  8 | x o x . . . x o . |
+  7 | . x . . o . x o o |
+  6 | o . o x . . x . x |
+  5 | . x x o . . o . x |
+  4 | . x . x x . x . . |
+  3 | . . o o x x x x . |
+  2 | . . x x . o o . . |
+  1 | o . o . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=5, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2468dc00>
+Removing Point Point(row=5, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2468d660>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468d750>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468d750>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468d750>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468d6f0>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468d6f0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468d6f0>
+Possible moves: [Point(row=1, col=2), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=9), Point(row=4, col=1), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 47 Player.black (x) places at A/4
+
+    *--------------------*
+  9 | o o . . o . o o o |
+  8 | x o x . . . x o . |
+  7 | . x . . o . x o o |
+  6 | o . o x . . x . x |
+  5 | . x x o . . o . x |
+  4 | o x . x x . x . . |
+  3 | . . o o x x x x . |
+  2 | . . x x . o o . . |
+  1 | o . o . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2468e140>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2468d300>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468df30>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468e200>
+8,9 is an eye.
+Possible moves: [Point(row=1, col=2), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=9), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=1), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 48 Player.white (o) places at A/7
+
+    *--------------------*
+  9 | o o . . o . o o o |
+  8 | x o x . . . x o . |
+  7 | x x . . o . x o o |
+  6 | o . o x . . x . x |
+  5 | . x x o . . o . x |
+  4 | o x . x x . x . . |
+  3 | . . o o x x x x . |
+  2 | . . x x . o o . . |
+  1 | o . o . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=5, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2468e350>
+Removing Point Point(row=5, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2468e530>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468e440>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468e440>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468e440>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468e530>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468e530>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468e530>
+Possible moves: [Point(row=1, col=2), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=9), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=3), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 49 Player.black (x) places at C/7
+
+    *--------------------*
+  9 | o o . . o . o o o |
+  8 | x o x . . . x o . |
+  7 | x x o . o . x o o |
+  6 | o . o x . . x . x |
+  5 | . x x o . . o . x |
+  4 | o x . x x . x . . |
+  3 | . . o o x x x x . |
+  2 | . . x x . o o . . |
+  1 | o . o . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2468ec80>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2468e170>
+Removing Point Point(row=7, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468e560>
+Removing Point Point(row=7, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468e560>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468e560>
+Removing Point Point(row=7, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468ea70>
+Removing Point Point(row=7, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468ea70>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468ea70>
+8,9 is an eye.
+Possible moves: [Point(row=1, col=2), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=9), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=5), Point(row=5, col=6), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 50 Player.white (o) places at F/5
+
+    *--------------------*
+  9 | o o . . o . o o o |
+  8 | x o x . . . x o . |
+  7 | x x o . o . x o o |
+  6 | o . o x . . x . x |
+  5 | . x x o . x o . x |
+  4 | o x . x x . x . . |
+  3 | . . o o x x x x . |
+  2 | . . x x . o o . . |
+  1 | o . o . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=5, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2468ee60>
+Removing Point Point(row=5, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2468eef0>
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2468eef0>
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2468f100>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468efe0>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468efe0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468efe0>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468f220>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468f220>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468f220>
+Possible moves: [Point(row=1, col=2), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=1), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=9), Point(row=4, col=3), Point(row=4, col=6), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=5), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 51 Player.black (x) places at A/2
+
+    *--------------------*
+  9 | o o . . o . o o o |
+  8 | x o x . . . x o . |
+  7 | x x o . o . x o o |
+  6 | o . o x . . x . x |
+  5 | . x x o . x o . x |
+  4 | o x . x x . x . . |
+  3 | . . o o x x x x . |
+  2 | o . x x . o o . . |
+  1 | o . o . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2468f850>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2468f340>
+Removing Point Point(row=7, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468f4f0>
+Removing Point Point(row=7, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468f4f0>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468f4f0>
+Removing Point Point(row=7, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468f3d0>
+Removing Point Point(row=7, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468f3d0>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468f3d0>
+8,9 is an eye.
+Possible moves: [Point(row=1, col=2), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=9), Point(row=4, col=3), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=5), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 52 Player.white (o) places at E/5
+Removing Point Point(row=5, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2468f3d0>
+
+    *--------------------*
+  9 | o o . . o . o o o |
+  8 | x o x . . . x o . |
+  7 | x x o . o . x o o |
+  6 | o . o x . . x . x |
+  5 | . x x . x x o . x |
+  4 | o x . x x . x . . |
+  3 | . . o o x x x x . |
+  2 | o . x x . o o . . |
+  1 | o . o . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+4,6 is an eye.
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2468f280>
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2468fdf0>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468faf0>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468faf0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468faf0>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468f7c0>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2468f7c0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2468f7c0>
+Possible moves: [Point(row=1, col=2), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=2), Point(row=3, col=9), Point(row=4, col=3), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=4), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 53 Player.black (x) places at B/3
+
+    *--------------------*
+  9 | o o . . o . o o o |
+  8 | x o x . . . x o . |
+  7 | x x o . o . x o o |
+  6 | o . o x . . x . x |
+  5 | . x x . x x o . x |
+  4 | o x . x x . x . . |
+  3 | . o o o x x x x . |
+  2 | o . x x . o o . . |
+  1 | o . o . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba244e83a0>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba244e8070>
+Removing Point Point(row=7, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244e8040>
+Removing Point Point(row=7, col=2) at <gogame.goboard_slow.GoString object at 0x7fba244e8040>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244e8040>
+Removing Point Point(row=7, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244e8190>
+Removing Point Point(row=7, col=2) at <gogame.goboard_slow.GoString object at 0x7fba244e8190>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244e8190>
+8,9 is an eye.
+Possible moves: [Point(row=1, col=2), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=9), Point(row=4, col=3), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 54 Player.white (o) places at C/4
+
+    *--------------------*
+  9 | o o . . o . o o o |
+  8 | x o x . . . x o . |
+  7 | x x o . o . x o o |
+  6 | o . o x . . x . x |
+  5 | . x x . x x o . x |
+  4 | o x x x x . x . . |
+  3 | . o o o x x x x . |
+  2 | o . x x . o o . . |
+  1 | o . o . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+4,6 is an eye.
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba244e83d0>
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba244e8640>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba244e8790>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244e8790>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba244e8790>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba244e88e0>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244e88e0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba244e88e0>
+Possible moves: [Point(row=1, col=2), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=9), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=4), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 55 Player.black (x) places at D/5
+
+    *--------------------*
+  9 | o o . . o . o o o |
+  8 | x o x . . . x o . |
+  7 | x x o . o . x o o |
+  6 | o . o x . . x . x |
+  5 | . x x o x x o . x |
+  4 | o x x x x . x . . |
+  3 | . o o o x x x x . |
+  2 | o . x x . o o . . |
+  1 | o . o . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba244e8d00>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba244e8e50>
+Removing Point Point(row=7, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244e8760>
+Removing Point Point(row=7, col=2) at <gogame.goboard_slow.GoString object at 0x7fba244e8760>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244e8760>
+Removing Point Point(row=7, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244e8d90>
+Removing Point Point(row=7, col=2) at <gogame.goboard_slow.GoString object at 0x7fba244e8d90>
+Removing Point Point(row=8, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244e8d90>
+8,9 is an eye.
+Possible moves: [Point(row=1, col=2), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=9), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=3), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 56 Player.white (o) places at C/9
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba244e8ac0>
+Removing Point Point(row=9, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244e8ac0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba244e8ac0>
+
+    *--------------------*
+  9 | . . x . o . o o o |
+  8 | x . x . . . x o . |
+  7 | x x o . o . x o o |
+  6 | o . o x . . x . x |
+  5 | . x x o x x o . x |
+  4 | o x x x x . x . . |
+  3 | . o o o x x x x . |
+  2 | o . x x . o o . . |
+  1 | o . o . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+4,6 is an eye.
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba244e88b0>
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba244e88b0>
+Possible moves: [Point(row=1, col=2), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=9), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=2), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=1), Point(row=9, col=2), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 57 Player.black (x) places at H/4
+
+    *--------------------*
+  9 | . . x . o . o o o |
+  8 | x . x . . . x o . |
+  7 | x x o . o . x o o |
+  6 | o . o x . . x . x |
+  5 | . x x o x x o . x |
+  4 | o x x x x . x o . |
+  3 | . o o o x x x x . |
+  2 | o . x x . o o . . |
+  1 | o . o . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba244e96f0>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba244e9480>
+8,9 is an eye.
+Possible moves: [Point(row=1, col=2), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=9), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=8), Point(row=6, col=2), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=2), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=1), Point(row=9, col=2), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 58 Player.white (o) places at B/6
+
+    *--------------------*
+  9 | . . x . o . o o o |
+  8 | x . x . . . x o . |
+  7 | x x o . o . x o o |
+  6 | o x o x . . x . x |
+  5 | . x x o x x o . x |
+  4 | o x x x x . x o . |
+  3 | . o o o x x x x . |
+  2 | o . x x . o o . . |
+  1 | o . o . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+4,6 is an eye.
+Removing Point Point(row=6, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244e9960>
+Removing Point Point(row=6, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244e9a20>
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba244e9d20>
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba244e9d50>
+Removing Point Point(row=6, col=3) at <gogame.goboard_slow.GoString object at 0x7fba244e9720>
+Removing Point Point(row=7, col=3) at <gogame.goboard_slow.GoString object at 0x7fba244e9720>
+Removing Point Point(row=6, col=3) at <gogame.goboard_slow.GoString object at 0x7fba244e9d80>
+Removing Point Point(row=7, col=3) at <gogame.goboard_slow.GoString object at 0x7fba244e9d80>
+Possible moves: [Point(row=1, col=2), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=9), Point(row=4, col=9), Point(row=5, col=1), Point(row=5, col=8), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=2), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=1), Point(row=9, col=2), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 59 Player.black (x) places at I/4
+
+    *--------------------*
+  9 | . . x . o . o o o |
+  8 | x . x . . . x o . |
+  7 | x x o . o . x o o |
+  6 | o x o x . . x . x |
+  5 | . x x o x x o . x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o . x x . o o . . |
+  1 | o . o . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba244e9f90>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba244e9cc0>
+8,9 is an eye.
+Possible moves: [Point(row=1, col=2), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=9), Point(row=5, col=1), Point(row=5, col=8), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=2), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=1), Point(row=9, col=2), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 60 Player.white (o) places at A/5
+Removing Point Point(row=6, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244ea2c0>
+
+    *--------------------*
+  9 | . . x . o . o o o |
+  8 | x . x . . . x o . |
+  7 | x x o . o . x o o |
+  6 | . x o x . . x . x |
+  5 | x x x o x x o . x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o . x x . o o . . |
+  1 | o . o . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244ea830>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244ea470>
+4,6 is an eye.
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba244ea650>
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba244ea5c0>
+6,1 is an eye.
+Removing Point Point(row=6, col=3) at <gogame.goboard_slow.GoString object at 0x7fba244ea680>
+Removing Point Point(row=7, col=3) at <gogame.goboard_slow.GoString object at 0x7fba244ea680>
+Removing Point Point(row=6, col=3) at <gogame.goboard_slow.GoString object at 0x7fba244ea590>
+Removing Point Point(row=7, col=3) at <gogame.goboard_slow.GoString object at 0x7fba244ea590>
+Possible moves: [Point(row=1, col=2), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=9), Point(row=5, col=8), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=2), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=1), Point(row=9, col=2), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 61 Player.black (x) places at B/9
+
+    *--------------------*
+  9 | . o x . o . o o o |
+  8 | x . x . . . x o . |
+  7 | x x o . o . x o o |
+  6 | . x o x . . x . x |
+  5 | x x x o x x o . x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o . x x . o o . . |
+  1 | o . o . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba244eacb0>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba244ea9e0>
+8,9 is an eye.
+Possible moves: [Point(row=1, col=2), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=2), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=9), Point(row=5, col=8), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=2), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=1), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 62 Player.white (o) places at B/2
+
+    *--------------------*
+  9 | . o x . o . o o o |
+  8 | x . x . . . x o . |
+  7 | x x o . o . x o o |
+  6 | . x o x . . x . x |
+  5 | x x x o x x o . x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o x x x . o o . . |
+  1 | o . o . o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244eb010>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba244eb190>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba244eb190>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba244eb190>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244eadd0>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba244eb130>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba244eb130>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba244eb130>
+4,6 is an eye.
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba244eaef0>
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba244eaf20>
+6,1 is an eye.
+Removing Point Point(row=6, col=3) at <gogame.goboard_slow.GoString object at 0x7fba244eaf20>
+Removing Point Point(row=7, col=3) at <gogame.goboard_slow.GoString object at 0x7fba244eaf20>
+Removing Point Point(row=6, col=3) at <gogame.goboard_slow.GoString object at 0x7fba244eaf50>
+Removing Point Point(row=7, col=3) at <gogame.goboard_slow.GoString object at 0x7fba244eaf50>
+Possible moves: [Point(row=1, col=2), Point(row=1, col=4), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=9), Point(row=5, col=8), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=2), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=1), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 63 Player.black (x) places at D/1
+
+    *--------------------*
+  9 | . o x . o . o o o |
+  8 | x . x . . . x o . |
+  7 | x x o . o . x o o |
+  6 | . x o x . . x . x |
+  5 | x x x o x x o . x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o x x x . o o . . |
+  1 | o . o o o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba244eb3a0>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba244eb340>
+8,9 is an eye.
+Possible moves: [Point(row=1, col=2), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=9), Point(row=5, col=8), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=4), Point(row=7, col=6), Point(row=8, col=2), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=1), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 64 Player.white (o) places at D/7
+Removing Point Point(row=6, col=3) at <gogame.goboard_slow.GoString object at 0x7fba244eb5e0>
+Removing Point Point(row=7, col=3) at <gogame.goboard_slow.GoString object at 0x7fba244eb5e0>
+
+    *--------------------*
+  9 | . o x . o . o o o |
+  8 | x . x . . . x o . |
+  7 | x x . x o . x o o |
+  6 | . x . x . . x . x |
+  5 | x x x o x x o . x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o x x x . o o . . |
+  1 | o . o o o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244eb880>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba244ebbb0>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba244ebbb0>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba244ebbb0>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba244ebb20>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba244eba00>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba244eba00>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba244eba00>
+4,6 is an eye.
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba244ebc70>
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba244eb820>
+6,1 is an eye.
+Possible moves: [Point(row=1, col=2), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=9), Point(row=5, col=8), Point(row=6, col=3), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=3), Point(row=7, col=6), Point(row=8, col=2), Point(row=8, col=4), Point(row=8, col=5), Point(row=8, col=6), Point(row=9, col=1), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 65 Player.black (x) places at E/8
+
+    *--------------------*
+  9 | . o x . o . o o o |
+  8 | x . x . o . x o . |
+  7 | x x . x o . x o o |
+  6 | . x . x . . x . x |
+  5 | x x x o x x o . x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o x x x . o o . . |
+  1 | o . o o o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba244ebd00>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba244ebe20>
+8,9 is an eye.
+Possible moves: [Point(row=1, col=2), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=9), Point(row=5, col=8), Point(row=6, col=3), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=3), Point(row=7, col=6), Point(row=8, col=2), Point(row=8, col=4), Point(row=8, col=6), Point(row=9, col=1), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 66 Player.white (o) places at D/8
+
+    *--------------------*
+  9 | . o x . o . o o o |
+  8 | x . x x o . x o . |
+  7 | x x . x o . x o o |
+  6 | . x . x . . x . x |
+  5 | x x x o x x o . x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o x x x . o o . . |
+  1 | o . o o o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24538550>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24538520>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24538520>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24538520>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24538490>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba245383a0>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba245383a0>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba245383a0>
+4,6 is an eye.
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba245384c0>
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba245383d0>
+6,1 is an eye.
+Possible moves: [Point(row=1, col=2), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=5), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=3, col=9), Point(row=5, col=8), Point(row=6, col=3), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=3), Point(row=7, col=6), Point(row=8, col=2), Point(row=8, col=6), Point(row=9, col=1), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 67 Player.black (x) places at I/2
+
+    *--------------------*
+  9 | . o x . o . o o o |
+  8 | x . x x o . x o . |
+  7 | x x . x o . x o o |
+  6 | . x . x . . x . x |
+  5 | x x x o x x o . x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o x x x . o o . o |
+  1 | o . o o o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24538850>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba245387f0>
+8,9 is an eye.
+Possible moves: [Point(row=1, col=2), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=5), Point(row=2, col=8), Point(row=3, col=1), Point(row=3, col=9), Point(row=5, col=8), Point(row=6, col=3), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=3), Point(row=7, col=6), Point(row=8, col=2), Point(row=8, col=6), Point(row=9, col=1), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 68 Player.white (o) places at C/7
+
+    *--------------------*
+  9 | . o x . o . o o o |
+  8 | x . x x o . x o . |
+  7 | x x x x o . x o o |
+  6 | . x . x . . x . x |
+  5 | x x x o x x o . x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o x x x . o o . o |
+  1 | o . o o o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24538b80>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24538ca0>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24538ca0>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24538ca0>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24538b20>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24538ac0>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24538ac0>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24538ac0>
+4,6 is an eye.
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba24538790>
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba24538c10>
+6,1 is an eye.
+6,3 is an eye.
+Possible moves: [Point(row=1, col=2), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=5), Point(row=2, col=8), Point(row=3, col=1), Point(row=3, col=9), Point(row=5, col=8), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=6), Point(row=8, col=2), Point(row=8, col=6), Point(row=9, col=1), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 69 Player.black (x) places at F/8
+
+    *--------------------*
+  9 | . o x . o . o o o |
+  8 | x . x x o o x o . |
+  7 | x x x x o . x o o |
+  6 | . x . x . . x . x |
+  5 | x x x o x x o . x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o x x x . o o . o |
+  1 | o . o o o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24538a00>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24538e80>
+8,9 is an eye.
+Possible moves: [Point(row=1, col=2), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=5), Point(row=2, col=8), Point(row=3, col=1), Point(row=3, col=9), Point(row=5, col=8), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=6), Point(row=8, col=2), Point(row=9, col=1), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 70 Player.white (o) places at E/2
+
+    *--------------------*
+  9 | . o x . o . o o o |
+  8 | x . x x o o x o . |
+  7 | x x x x o . x o o |
+  6 | . x . x . . x . x |
+  5 | x x x o x x o . x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o x x x x o o . o |
+  1 | o . o o o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24539480>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24539480>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24539480>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24539450>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24539450>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24539450>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24539390>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba245395d0>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba245395d0>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba245395d0>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba245392d0>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba245394e0>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba245394e0>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba245394e0>
+4,6 is an eye.
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba245392a0>
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba245395a0>
+6,1 is an eye.
+6,3 is an eye.
+Possible moves: [Point(row=1, col=2), Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=8), Point(row=3, col=1), Point(row=3, col=9), Point(row=5, col=8), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=6), Point(row=8, col=2), Point(row=9, col=1), Point(row=9, col=4)]
+Turn 71 Player.black (x) places at B/1
+
+    *--------------------*
+  9 | . o x . o . o o o |
+  8 | x . x x o o x o . |
+  7 | x x x x o . x o o |
+  6 | . x . x . . x . x |
+  5 | x x x o x x o . x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o x x x x o o . o |
+  1 | o o o o o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24539990>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba245396c0>
+8,9 is an eye.
+Possible moves: [Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=8), Point(row=3, col=9), Point(row=5, col=8), Point(row=6, col=5), Point(row=6, col=6), Point(row=6, col=8), Point(row=7, col=6), Point(row=8, col=2), Point(row=9, col=1), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 72 Player.white (o) places at H/6
+
+    *--------------------*
+  9 | . o x . o . o o o |
+  8 | x . x x o o x o . |
+  7 | x x x x o . x o o |
+  6 | . x . x . . x x x |
+  5 | x x x o x x o . x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o x x x x o o . o |
+  1 | o o o o o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba245396f0>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba245396f0>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba245396f0>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba245396f0>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba245396f0>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba245396f0>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24539cc0>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24539780>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24539780>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24539780>
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24539c30>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24539c30>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24539c30>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24539c30>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24539c30>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24539c30>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24539db0>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24539780>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24539780>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24539780>
+4,6 is an eye.
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba24539c90>
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba24539540>
+6,1 is an eye.
+6,3 is an eye.
+Possible moves: [Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=8), Point(row=3, col=1), Point(row=3, col=9), Point(row=5, col=8), Point(row=6, col=5), Point(row=6, col=6), Point(row=7, col=6), Point(row=8, col=2), Point(row=9, col=1), Point(row=9, col=4)]
+Turn 73 Player.black (x) places at B/8
+
+    *--------------------*
+  9 | . o x . o . o o o |
+  8 | x o x x o o x o . |
+  7 | x x x x o . x o o |
+  6 | . x . x . . x x x |
+  5 | x x x o x x o . x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o x x x x o o . o |
+  1 | o o o o o x . . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2453a0e0>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24539ab0>
+8,9 is an eye.
+Possible moves: [Point(row=1, col=7), Point(row=1, col=8), Point(row=2, col=8), Point(row=3, col=9), Point(row=5, col=8), Point(row=6, col=5), Point(row=6, col=6), Point(row=7, col=6), Point(row=9, col=4), Point(row=9, col=6)]
+Turn 74 Player.white (o) places at G/1
+
+    *--------------------*
+  9 | . o x . o . o o o |
+  8 | x o x x o o x o . |
+  7 | x x x x o . x o o |
+  6 | . x . x . . x x x |
+  5 | x x x o x x o . x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o x x x x o o . o |
+  1 | o o o o o x x . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=2, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2453a170>
+Removing Point Point(row=2, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453a170>
+Removing Point Point(row=2, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2453a170>
+Removing Point Point(row=2, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453a170>
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453a410>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453a410>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba2453a410>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453a410>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453a410>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453a410>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453a0b0>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453a2f0>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453a2f0>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453a2f0>
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453a410>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453a410>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba2453a410>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453a410>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453a410>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453a410>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453a020>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453a2f0>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453a2f0>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453a2f0>
+4,6 is an eye.
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453a380>
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453a1a0>
+6,1 is an eye.
+6,3 is an eye.
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453a200>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453a200>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453a440>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453a440>
+Possible moves: [Point(row=1, col=8), Point(row=2, col=8), Point(row=3, col=1), Point(row=3, col=9), Point(row=5, col=8), Point(row=6, col=5), Point(row=6, col=6), Point(row=7, col=6), Point(row=9, col=1), Point(row=9, col=4)]
+Turn 75 Player.black (x) places at D/9
+
+    *--------------------*
+  9 | . o x o o . o o o |
+  8 | x o x x o o x o . |
+  7 | x x x x o . x o o |
+  6 | . x . x . . x x x |
+  5 | x x x o x x o . x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o x x x x o o . o |
+  1 | o o o o o x x . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2453a7d0>
+Removing Point Point(row=1, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453a7d0>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2453a170>
+Removing Point Point(row=1, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453a170>
+8,9 is an eye.
+Possible moves: [Point(row=1, col=8), Point(row=2, col=8), Point(row=3, col=9), Point(row=5, col=8), Point(row=6, col=5), Point(row=6, col=6), Point(row=7, col=6), Point(row=9, col=6)]
+Turn 76 Player.white (o) places at H/5
+Removing Point Point(row=5, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453a740>
+
+    *--------------------*
+  9 | . o x o o . o o o |
+  8 | x o x x o o x o . |
+  7 | x x x x o . x o o |
+  6 | . x . x . . x x x |
+  5 | x x x o x x . x x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o x x x x o o . o |
+  1 | o o o o o x x . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=2, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2453a590>
+Removing Point Point(row=2, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453a590>
+Removing Point Point(row=2, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2453a9b0>
+Removing Point Point(row=2, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453a9b0>
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453a8f0>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453a8f0>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba2453a8f0>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453a8f0>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453a8f0>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453a8f0>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453abf0>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453a590>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453a590>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453a590>
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453a8f0>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453a8f0>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba2453a8f0>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453a8f0>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453a8f0>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453a8f0>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453ab30>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453a590>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453a590>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453a590>
+Removing Point Point(row=4, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2453a6b0>
+Removing Point Point(row=4, col=8) at <gogame.goboard_slow.GoString object at 0x7fba2453a6b0>
+Removing Point Point(row=4, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2453aa40>
+Removing Point Point(row=4, col=8) at <gogame.goboard_slow.GoString object at 0x7fba2453aa40>
+4,6 is an eye.
+6,1 is an eye.
+6,3 is an eye.
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453abc0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453abc0>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453a9b0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453a9b0>
+Possible moves: [Point(row=1, col=8), Point(row=2, col=8), Point(row=3, col=1), Point(row=3, col=9), Point(row=5, col=7), Point(row=6, col=5), Point(row=6, col=6), Point(row=7, col=6), Point(row=9, col=1)]
+Turn 77 Player.black (x) places at H/2
+
+    *--------------------*
+  9 | . o x o o . o o o |
+  8 | x o x x o o x o . |
+  7 | x x x x o . x o o |
+  6 | . x . x . . x x x |
+  5 | x x x o x x . x x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o x x x x o o o o |
+  1 | o o o o o x x . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2453af20>
+Removing Point Point(row=1, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453af20>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2453afb0>
+Removing Point Point(row=1, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453afb0>
+8,9 is an eye.
+Possible moves: [Point(row=1, col=8), Point(row=3, col=9), Point(row=6, col=5), Point(row=6, col=6), Point(row=7, col=6), Point(row=9, col=6)]
+Turn 78 Player.white (o) places at F/9
+
+    *--------------------*
+  9 | . o x o o x o o o |
+  8 | x o x x o o x o . |
+  7 | x x x x o . x o o |
+  6 | . x . x . . x x x |
+  5 | x x x o x x . x x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o x x x x o o o o |
+  1 | o o o o o x x . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453b2b0>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453b2b0>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba2453b2b0>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453b2b0>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453b2b0>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453b2b0>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453b250>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453b070>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453b070>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453b070>
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453b250>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453b250>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba2453b250>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453b250>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453b250>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453b250>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453afb0>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453acb0>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453acb0>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453acb0>
+Removing Point Point(row=4, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2453a9e0>
+Removing Point Point(row=4, col=8) at <gogame.goboard_slow.GoString object at 0x7fba2453a9e0>
+Removing Point Point(row=4, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2453ab30>
+Removing Point Point(row=4, col=8) at <gogame.goboard_slow.GoString object at 0x7fba2453ab30>
+4,6 is an eye.
+6,1 is an eye.
+6,3 is an eye.
+Removing Point Point(row=8, col=8) at <gogame.goboard_slow.GoString object at 0x7fba2453b160>
+Removing Point Point(row=9, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2453b160>
+Removing Point Point(row=7, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2453b160>
+Removing Point Point(row=9, col=8) at <gogame.goboard_slow.GoString object at 0x7fba2453b160>
+Removing Point Point(row=9, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453b160>
+Removing Point Point(row=7, col=8) at <gogame.goboard_slow.GoString object at 0x7fba2453b160>
+Removing Point Point(row=8, col=8) at <gogame.goboard_slow.GoString object at 0x7fba2453b250>
+Removing Point Point(row=9, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2453b250>
+Removing Point Point(row=7, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2453b250>
+Removing Point Point(row=9, col=8) at <gogame.goboard_slow.GoString object at 0x7fba2453b250>
+Removing Point Point(row=9, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453b250>
+Removing Point Point(row=7, col=8) at <gogame.goboard_slow.GoString object at 0x7fba2453b250>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453b0d0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453b0d0>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453afb0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453afb0>
+Possible moves: [Point(row=3, col=1), Point(row=3, col=9), Point(row=5, col=7), Point(row=6, col=5), Point(row=6, col=6), Point(row=7, col=6), Point(row=8, col=9), Point(row=9, col=1)]
+Turn 79 Player.black (x) places at I/8
+
+    *--------------------*
+  9 | . o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o . x o o |
+  6 | . x . x . . x x x |
+  5 | x x x o x x . x x |
+  4 | o x x x x . x o o |
+  3 | . o o o x x x x . |
+  2 | o x x x x o o o o |
+  1 | o o o o o x x . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2453b640>
+Removing Point Point(row=1, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453b640>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2453b490>
+Removing Point Point(row=1, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453b490>
+Possible moves: [Point(row=1, col=8), Point(row=3, col=9), Point(row=6, col=5), Point(row=6, col=6), Point(row=7, col=6)]
+Turn 80 Player.white (o) places at I/3
+Removing Point Point(row=4, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2453b460>
+Removing Point Point(row=4, col=8) at <gogame.goboard_slow.GoString object at 0x7fba2453b460>
+
+    *--------------------*
+  9 | . o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o . x o o |
+  6 | . x . x . . x x x |
+  5 | x x x o x x . x x |
+  4 | o x x x x . x . . |
+  3 | . o o o x x x x x |
+  2 | o x x x x o o o o |
+  1 | o o o o o x x . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=2, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453b8b0>
+Removing Point Point(row=2, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2453b8b0>
+Removing Point Point(row=2, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2453b8b0>
+Removing Point Point(row=1, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2453b8b0>
+Removing Point Point(row=2, col=8) at <gogame.goboard_slow.GoString object at 0x7fba2453b8b0>
+Removing Point Point(row=2, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453b9a0>
+Removing Point Point(row=2, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2453b9a0>
+Removing Point Point(row=2, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2453b9a0>
+Removing Point Point(row=1, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2453b9a0>
+Removing Point Point(row=2, col=8) at <gogame.goboard_slow.GoString object at 0x7fba2453b9a0>
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453b7f0>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453b7f0>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba2453b7f0>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453b7f0>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453b7f0>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453b7f0>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453b640>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453b4c0>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453b4c0>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453b4c0>
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453b7c0>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453b7c0>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba2453b7c0>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453b7c0>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453b7c0>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453b7c0>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453b400>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453b4c0>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453b4c0>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453b4c0>
+4,6 is an eye.
+6,1 is an eye.
+6,3 is an eye.
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453b970>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453b970>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453b640>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453b640>
+Possible moves: [Point(row=1, col=8), Point(row=3, col=1), Point(row=4, col=8), Point(row=4, col=9), Point(row=5, col=7), Point(row=6, col=5), Point(row=6, col=6), Point(row=7, col=6), Point(row=9, col=1)]
+Turn 81 Player.black (x) places at F/7
+
+    *--------------------*
+  9 | . o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x . . x x x |
+  5 | x x x o x x . x x |
+  4 | o x x x x . x . . |
+  3 | . o o o x x x x x |
+  2 | o x x x x o o o o |
+  1 | o o o o o x x . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2453bd00>
+Removing Point Point(row=1, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453bd00>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2453bd90>
+Removing Point Point(row=1, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453bd90>
+Possible moves: [Point(row=1, col=8), Point(row=4, col=8), Point(row=4, col=9), Point(row=6, col=5), Point(row=6, col=6)]
+Turn 82 Player.white (o) places at I/4
+
+    *--------------------*
+  9 | . o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x . . x x x |
+  5 | x x x o x x . x x |
+  4 | o x x x x . x . x |
+  3 | . o o o x x x x x |
+  2 | o x x x x o o o o |
+  1 | o o o o o x x . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=2, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453bf70>
+Removing Point Point(row=2, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2453bf70>
+Removing Point Point(row=2, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2453bf70>
+Removing Point Point(row=1, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2453bf70>
+Removing Point Point(row=2, col=8) at <gogame.goboard_slow.GoString object at 0x7fba2453bf70>
+Removing Point Point(row=2, col=7) at <gogame.goboard_slow.GoString object at 0x7fba2453b9a0>
+Removing Point Point(row=2, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2453b9a0>
+Removing Point Point(row=2, col=6) at <gogame.goboard_slow.GoString object at 0x7fba2453b9a0>
+Removing Point Point(row=1, col=9) at <gogame.goboard_slow.GoString object at 0x7fba2453b9a0>
+Removing Point Point(row=2, col=8) at <gogame.goboard_slow.GoString object at 0x7fba2453b9a0>
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453be20>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453be20>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba2453be20>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453be20>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453be20>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453be20>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453beb0>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453be80>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453be80>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453be80>
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453bb80>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453bb80>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba2453bb80>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453bb80>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453bb80>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453bb80>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba2453bf40>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453beb0>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba2453beb0>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba2453beb0>
+4,6 is an eye.
+6,1 is an eye.
+6,3 is an eye.
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453bb80>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453bb80>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453bb80>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba2453bb80>
+Possible moves: [Point(row=1, col=8), Point(row=3, col=1), Point(row=4, col=8), Point(row=5, col=7), Point(row=6, col=5), Point(row=6, col=6), Point(row=9, col=1)]
+Turn 83 Player.black (x) places at E/6
+
+    *--------------------*
+  9 | . o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x o . x x x |
+  5 | x x x o x x . x x |
+  4 | o x x x x . x . x |
+  3 | . o o o x x x x x |
+  2 | o x x x x o o o o |
+  1 | o o o o o x x . o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24590370>
+Removing Point Point(row=1, col=7) at <gogame.goboard_slow.GoString object at 0x7fba24590370>
+Removing Point Point(row=1, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24590400>
+Removing Point Point(row=1, col=7) at <gogame.goboard_slow.GoString object at 0x7fba24590400>
+Possible moves: [Point(row=1, col=8)]
+Turn 84 Player.white (o) places at H/1
+Removing Point Point(row=2, col=7) at <gogame.goboard_slow.GoString object at 0x7fba24590400>
+Removing Point Point(row=2, col=9) at <gogame.goboard_slow.GoString object at 0x7fba24590400>
+Removing Point Point(row=2, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24590400>
+Removing Point Point(row=1, col=9) at <gogame.goboard_slow.GoString object at 0x7fba24590400>
+Removing Point Point(row=2, col=8) at <gogame.goboard_slow.GoString object at 0x7fba24590400>
+
+    *--------------------*
+  9 | . o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x o . x x x |
+  5 | x x x o x x . x x |
+  4 | o x x x x . x . x |
+  3 | . o o o x x x x x |
+  2 | o x x x x . . . . |
+  1 | o o o o o x x x . |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24590430>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24590430>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24590430>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24590430>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24590430>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24590430>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24590130>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24590250>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24590250>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24590250>
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24590130>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24590130>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24590130>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24590130>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24590130>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24590130>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24590490>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba245900a0>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba245900a0>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba245900a0>
+4,6 is an eye.
+6,1 is an eye.
+6,3 is an eye.
+Removing Point Point(row=6, col=5) at <gogame.goboard_slow.GoString object at 0x7fba245906d0>
+Removing Point Point(row=9, col=5) at <gogame.goboard_slow.GoString object at 0x7fba245906d0>
+Removing Point Point(row=7, col=6) at <gogame.goboard_slow.GoString object at 0x7fba245906d0>
+Removing Point Point(row=8, col=6) at <gogame.goboard_slow.GoString object at 0x7fba245906d0>
+Removing Point Point(row=7, col=5) at <gogame.goboard_slow.GoString object at 0x7fba245906d0>
+Removing Point Point(row=8, col=5) at <gogame.goboard_slow.GoString object at 0x7fba245906d0>
+Removing Point Point(row=9, col=4) at <gogame.goboard_slow.GoString object at 0x7fba245906d0>
+Removing Point Point(row=6, col=5) at <gogame.goboard_slow.GoString object at 0x7fba245905e0>
+Removing Point Point(row=9, col=5) at <gogame.goboard_slow.GoString object at 0x7fba245905e0>
+Removing Point Point(row=7, col=6) at <gogame.goboard_slow.GoString object at 0x7fba245905e0>
+Removing Point Point(row=8, col=6) at <gogame.goboard_slow.GoString object at 0x7fba245905e0>
+Removing Point Point(row=7, col=5) at <gogame.goboard_slow.GoString object at 0x7fba245905e0>
+Removing Point Point(row=8, col=5) at <gogame.goboard_slow.GoString object at 0x7fba245905e0>
+Removing Point Point(row=9, col=4) at <gogame.goboard_slow.GoString object at 0x7fba245905e0>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24590490>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24590490>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba245904c0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba245904c0>
+Possible moves: [Point(row=1, col=9), Point(row=2, col=6), Point(row=2, col=7), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=4, col=8), Point(row=5, col=7), Point(row=6, col=6), Point(row=9, col=1)]
+Turn 85 Player.black (x) places at G/5
+
+    *--------------------*
+  9 | . o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x o . x x x |
+  5 | x x x o x x o x x |
+  4 | o x x x x . x . x |
+  3 | . o o o x x x x x |
+  2 | o x x x x . . . . |
+  1 | o o o o o x x x . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=9), Point(row=2, col=6), Point(row=2, col=7), Point(row=2, col=8), Point(row=2, col=9)]
+Turn 86 Player.white (o) places at F/2
+
+    *--------------------*
+  9 | . o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x o . x x x |
+  5 | x x x o x x o x x |
+  4 | o x x x x . x . x |
+  3 | . o o o x x x x x |
+  2 | o x x x x x . . . |
+  1 | o o o o o x x x . |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24590af0>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24590af0>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24590af0>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24590af0>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24590af0>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24590af0>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24590be0>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba245909d0>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba245909d0>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba245909d0>
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24590c70>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24590c70>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24590c70>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24590c70>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24590c70>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24590c70>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24590b80>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24590820>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24590820>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24590820>
+4,6 is an eye.
+6,1 is an eye.
+6,3 is an eye.
+Removing Point Point(row=6, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24590760>
+Removing Point Point(row=9, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24590760>
+Removing Point Point(row=7, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24590760>
+Removing Point Point(row=8, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24590760>
+Removing Point Point(row=7, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24590760>
+Removing Point Point(row=8, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24590760>
+Removing Point Point(row=9, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24590760>
+Removing Point Point(row=6, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24590bb0>
+Removing Point Point(row=9, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24590bb0>
+Removing Point Point(row=7, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24590bb0>
+Removing Point Point(row=8, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24590bb0>
+Removing Point Point(row=7, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24590bb0>
+Removing Point Point(row=8, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24590bb0>
+Removing Point Point(row=9, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24590bb0>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24590a90>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24590a90>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24590ac0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24590ac0>
+Possible moves: [Point(row=1, col=9), Point(row=2, col=7), Point(row=2, col=8), Point(row=2, col=9), Point(row=3, col=1), Point(row=4, col=8), Point(row=6, col=6), Point(row=9, col=1)]
+Turn 87 Player.black (x) places at I/2
+
+    *--------------------*
+  9 | . o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x o . x x x |
+  5 | x x x o x x o x x |
+  4 | o x x x x . x . x |
+  3 | . o o o x x x x x |
+  2 | o x x x x x . . o |
+  1 | o o o o o x x x . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: [Point(row=1, col=9), Point(row=2, col=7), Point(row=2, col=8)]
+Turn 88 Player.white (o) places at G/2
+
+    *--------------------*
+  9 | . o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x o . x x x |
+  5 | x x x o x x o x x |
+  4 | o x x x x . x . x |
+  3 | . o o o x x x x x |
+  2 | o x x x x x x . o |
+  1 | o o o o o x x x . |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591150>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591150>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591150>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591150>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591150>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24591150>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591360>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24590fd0>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24590fd0>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24590fd0>
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591150>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591150>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591150>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591150>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591150>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24591150>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba245911b0>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591360>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24591360>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591360>
+4,6 is an eye.
+6,1 is an eye.
+6,3 is an eye.
+Removing Point Point(row=6, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24590e80>
+Removing Point Point(row=9, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24590e80>
+Removing Point Point(row=7, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24590e80>
+Removing Point Point(row=8, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24590e80>
+Removing Point Point(row=7, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24590e80>
+Removing Point Point(row=8, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24590e80>
+Removing Point Point(row=9, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24590e80>
+Removing Point Point(row=6, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591300>
+Removing Point Point(row=9, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591300>
+Removing Point Point(row=7, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24591300>
+Removing Point Point(row=8, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24591300>
+Removing Point Point(row=7, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591300>
+Removing Point Point(row=8, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591300>
+Removing Point Point(row=9, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591300>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591090>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591090>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba245911b0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba245911b0>
+Possible moves: [Point(row=1, col=9), Point(row=2, col=8), Point(row=3, col=1), Point(row=4, col=8), Point(row=6, col=6), Point(row=9, col=1)]
+Turn 89 Player.black (x) places at H/2
+
+    *--------------------*
+  9 | . o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x o . x x x |
+  5 | x x x o x x o x x |
+  4 | o x x x x . x . x |
+  3 | . o o o x x x x x |
+  2 | o x x x x x x o o |
+  1 | o o o o o x x x . |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: []
+Turn 90 Player.white (o) places at passes this turn
+
+    *--------------------*
+  9 | . o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x o . x x x |
+  5 | x x x o x x o x x |
+  4 | o x x x x . x . x |
+  3 | . o o o x x x x x |
+  2 | o x x x x x x o o |
+  1 | o o o o o x x x . |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=2, col=9) at <gogame.goboard_slow.GoString object at 0x7fba245916f0>
+Removing Point Point(row=2, col=8) at <gogame.goboard_slow.GoString object at 0x7fba245916f0>
+Removing Point Point(row=2, col=9) at <gogame.goboard_slow.GoString object at 0x7fba24590a30>
+Removing Point Point(row=2, col=8) at <gogame.goboard_slow.GoString object at 0x7fba24590a30>
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591540>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591540>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591540>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591540>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591540>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24591540>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba245913c0>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591660>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24591660>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591660>
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591150>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591150>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591150>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591150>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591150>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24591150>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591510>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba245913c0>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba245913c0>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba245913c0>
+4,6 is an eye.
+6,1 is an eye.
+6,3 is an eye.
+Removing Point Point(row=6, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591600>
+Removing Point Point(row=9, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591600>
+Removing Point Point(row=7, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24591600>
+Removing Point Point(row=8, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24591600>
+Removing Point Point(row=7, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591600>
+Removing Point Point(row=8, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591600>
+Removing Point Point(row=9, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591600>
+Removing Point Point(row=6, col=5) at <gogame.goboard_slow.GoString object at 0x7fba245912d0>
+Removing Point Point(row=9, col=5) at <gogame.goboard_slow.GoString object at 0x7fba245912d0>
+Removing Point Point(row=7, col=6) at <gogame.goboard_slow.GoString object at 0x7fba245912d0>
+Removing Point Point(row=8, col=6) at <gogame.goboard_slow.GoString object at 0x7fba245912d0>
+Removing Point Point(row=7, col=5) at <gogame.goboard_slow.GoString object at 0x7fba245912d0>
+Removing Point Point(row=8, col=5) at <gogame.goboard_slow.GoString object at 0x7fba245912d0>
+Removing Point Point(row=9, col=4) at <gogame.goboard_slow.GoString object at 0x7fba245912d0>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba245912d0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba245912d0>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba245912d0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba245912d0>
+Possible moves: [Point(row=1, col=9), Point(row=3, col=1), Point(row=4, col=8), Point(row=6, col=6), Point(row=9, col=1)]
+Turn 91 Player.black (x) places at I/1
+
+    *--------------------*
+  9 | . o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x o . x x x |
+  5 | x x x o x x o x x |
+  4 | o x x x x . x . x |
+  3 | . o o o x x x x x |
+  2 | o x x x x x x o o |
+  1 | o o o o o x x x o |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: []
+Turn 92 Player.white (o) places at passes this turn
+
+    *--------------------*
+  9 | . o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x o . x x x |
+  5 | x x x o x x o x x |
+  4 | o x x x x . x . x |
+  3 | . o o o x x x x x |
+  2 | o x x x x x x o o |
+  1 | o o o o o x x x o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591930>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591930>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591930>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591930>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591930>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24591930>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591ae0>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591ab0>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24591ab0>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591ab0>
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591930>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591930>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591930>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591930>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591930>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24591930>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba245915d0>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591ae0>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24591ae0>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591ae0>
+4,6 is an eye.
+6,1 is an eye.
+6,3 is an eye.
+Removing Point Point(row=6, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591a50>
+Removing Point Point(row=9, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591a50>
+Removing Point Point(row=7, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24591a50>
+Removing Point Point(row=8, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24591a50>
+Removing Point Point(row=7, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591a50>
+Removing Point Point(row=8, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591a50>
+Removing Point Point(row=9, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591a50>
+Removing Point Point(row=6, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591b10>
+Removing Point Point(row=9, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591b10>
+Removing Point Point(row=7, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24591b10>
+Removing Point Point(row=8, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24591b10>
+Removing Point Point(row=7, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591b10>
+Removing Point Point(row=8, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591b10>
+Removing Point Point(row=9, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591b10>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591870>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591870>
+Removing Point Point(row=8, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591ae0>
+Removing Point Point(row=9, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591ae0>
+Possible moves: [Point(row=3, col=1), Point(row=4, col=8), Point(row=6, col=6), Point(row=9, col=1)]
+Turn 93 Player.black (x) places at A/9
+
+    *--------------------*
+  9 | o o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x o . x x x |
+  5 | x x x o x x o x x |
+  4 | o x x x x . x . x |
+  3 | . o o o x x x x x |
+  2 | o x x x x x x o o |
+  1 | o o o o o x x x o |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: []
+Turn 94 Player.white (o) places at passes this turn
+
+    *--------------------*
+  9 | o o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x o . x x x |
+  5 | x x x o x x o x x |
+  4 | o x x x x . x . x |
+  3 | . o o o x x x x x |
+  2 | o x x x x x x o o |
+  1 | o o o o o x x x o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591db0>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591db0>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591db0>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591db0>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591db0>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24591db0>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591f00>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591840>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24591840>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591840>
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591ba0>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591ba0>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591ba0>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591ba0>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591ba0>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24591ba0>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591ea0>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591f00>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24591f00>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591f00>
+4,6 is an eye.
+6,1 is an eye.
+6,3 is an eye.
+Removing Point Point(row=6, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591a20>
+Removing Point Point(row=9, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591a20>
+Removing Point Point(row=7, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24591a20>
+Removing Point Point(row=8, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24591a20>
+Removing Point Point(row=7, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591a20>
+Removing Point Point(row=8, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591a20>
+Removing Point Point(row=9, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591a20>
+Removing Point Point(row=6, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591f30>
+Removing Point Point(row=9, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591f30>
+Removing Point Point(row=7, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24591f30>
+Removing Point Point(row=8, col=6) at <gogame.goboard_slow.GoString object at 0x7fba24591f30>
+Removing Point Point(row=7, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591f30>
+Removing Point Point(row=8, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591f30>
+Removing Point Point(row=9, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591f30>
+Possible moves: [Point(row=3, col=1), Point(row=4, col=8), Point(row=6, col=6)]
+Turn 95 Player.black (x) places at F/6
+
+    *--------------------*
+  9 | o o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x o o x x x |
+  5 | x x x o x x o x x |
+  4 | o x x x x . x . x |
+  3 | . o o o x x x x x |
+  2 | o x x x x x x o o |
+  1 | o o o o o x x x o |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: []
+Turn 96 Player.white (o) places at passes this turn
+
+    *--------------------*
+  9 | o o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x o o x x x |
+  5 | x x x o x x o x x |
+  4 | o x x x x . x . x |
+  3 | . o o o x x x x x |
+  2 | o x x x x x x o o |
+  1 | o o o o o x x x o |
+    *--------------------*
+      A B C D E F G H I
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591d80>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591d80>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591d80>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591d80>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591d80>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24591d80>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba245922c0>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591e10>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24591e10>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591e10>
+Removing Point Point(row=1, col=2) at <gogame.goboard_slow.GoString object at 0x7fba24591d80>
+Removing Point Point(row=2, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591d80>
+Removing Point Point(row=1, col=5) at <gogame.goboard_slow.GoString object at 0x7fba24591d80>
+Removing Point Point(row=1, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591d80>
+Removing Point Point(row=1, col=4) at <gogame.goboard_slow.GoString object at 0x7fba24591d80>
+Removing Point Point(row=1, col=3) at <gogame.goboard_slow.GoString object at 0x7fba24591d80>
+Removing Point Point(row=4, col=1) at <gogame.goboard_slow.GoString object at 0x7fba24591c30>
+Removing Point Point(row=3, col=2) at <gogame.goboard_slow.GoString object at 0x7fba245922c0>
+Removing Point Point(row=3, col=3) at <gogame.goboard_slow.GoString object at 0x7fba245922c0>
+Removing Point Point(row=3, col=4) at <gogame.goboard_slow.GoString object at 0x7fba245922c0>
+4,6 is an eye.
+6,1 is an eye.
+6,3 is an eye.
+Possible moves: [Point(row=3, col=1), Point(row=4, col=8)]
+Turn 97 Player.black (x) places at A/3
+
+    *--------------------*
+  9 | o o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x o o x x x |
+  5 | x x x o x x o x x |
+  4 | o x x x x . x . x |
+  3 | o o o o x x x x x |
+  2 | o x x x x x x o o |
+  1 | o o o o o x x x o |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: []
+Turn 98 Player.white (o) places at passes this turn
+
+    *--------------------*
+  9 | o o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x o o x x x |
+  5 | x x x o x x o x x |
+  4 | o x x x x . x . x |
+  3 | o o o o x x x x x |
+  2 | o x x x x x x o o |
+  1 | o o o o o x x x o |
+    *--------------------*
+      A B C D E F G H I
+4,6 is an eye.
+6,1 is an eye.
+6,3 is an eye.
+Possible moves: [Point(row=4, col=8)]
+Turn 99 Player.black (x) places at H/4
+
+    *--------------------*
+  9 | o o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x o o x x x |
+  5 | x x x o x x o x x |
+  4 | o x x x x . x o x |
+  3 | o o o o x x x x x |
+  2 | o x x x x x x o o |
+  1 | o o o o o x x x o |
+    *--------------------*
+      A B C D E F G H I
+Possible moves: []
+Turn 100 Player.white (o) places at passes this turn
+
+    *--------------------*
+  9 | o o x o o x o o o |
+  8 | x o x x o o x o o |
+  7 | x x x x o o x o o |
+  6 | . x . x o o x x x |
+  5 | x x x o x x o x x |
+  4 | o x x x x . x o x |
+  3 | o o o o x x x x x |
+  2 | o x x x x x x o o |
+  1 | o o o o o x x x o |
+    *--------------------*
+      A B C D E F G H I
+4,6 is an eye.
+6,1 is an eye.
+6,3 is an eye.
+Possible moves: []
+Turn 101 Player.black (x) places at passes this turn

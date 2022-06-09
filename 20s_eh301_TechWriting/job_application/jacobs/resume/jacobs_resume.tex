@@ -1,0 +1,124 @@
+\documentclass[9pt]{article}
+
+\usepackage{setspace}
+\usepackage[margin=.5in]{geometry}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{blindtext}
+\usepackage{nopageno}
+\usepackage{soul}
+\usepackage[dvipsnames]{xcolor}
+
+\titleformat{\section}
+{\color{OliveGreen}\Large\bf}{}{0em}{\hspace{.1in}}[\titlerule]
+
+\titleformat{\subsection}
+{\bfseries}{\hspace{.2in}}{0em}{}
+
+%set entry command for subsections
+\newcommand{\entry}[2]{
+	\begin{minipage}[c]{.14\textwidth}
+		{\small\textbf{#1}}\hfill
+	\end{minipage}
+	{\color{OliveGreen}\hfill \vline \hfill}
+	\begin{minipage}[c]{.8\textwidth}
+		#2
+	\end{minipage}\vspace{.12in}
+	}
+
+
+
+\begin{document}
+
+%header section w/ contact info, name, majors
+\begin{center}
+	{\color{OliveGreen}\Huge{Mitchell T. Dodson}}
+
+	\vspace{1em}
+
+	\begin{minipage}[t]{.33\textwidth}
+
+		mitchell.t.dodson@nasa.gov
+
+		mtd0012@uah.edu
+
+		(270)-421-8875
+
+	\end{minipage}
+	\begin{minipage}[t]{.20\textwidth}\begin{centering}
+
+		\textsc{Physics}
+
+		\textsc{Mathematics}
+
+		\textsc{Computer Science}
+
+
+	\end{centering}\end{minipage}
+	\begin{minipage}[t]{.33\textwidth}
+
+		\hfill
+		602J-3 John Wright Drive
+
+		\hfill
+		Huntsville, AL 35805
+
+	\end{minipage}
+\end{center}
+
+\section{keywords}
+\textit{}
+\begin{centering}
+
+\hl{Applied and Theoretical Physics, Mathematics, 3.938 GPA, Python, UNIX-like SysAdmin, LaTeX, Eagle Scout, Perl}
+
+\end{centering}
+\section{education}
+\textit{}
+
+	\entry{2018 - present}{Currently attending the \textbf{University of Alabama in Huntsville} Honors College, seeking a double major in Physics (Applied and Theoretical conc.) and Mathematics, with a Computer Science minor. \textbf{98 hours} completed with a \textbf{3.923 GPA} (4.0 Major GPA), expecting to graduate May 2022}
+
+	\entry{2014-2018}{Attended \textbf{Greenwood High School} in Bowling Green, Kentucky. Took an AP-heavy schedule, earning 33 college credit hours before graduation, covering nearly all needed non-core courses}
+
+\section{activities and experience}
+\textit{}
+
+\entry{2019-Present}{\hl{NASA SPoRT Student Programmer - Designing \textbf{dynamic webpages} and internal software for \textbf{data transition} and \textbf{storage}}}
+
+	\entry{2019}{NASA SPoRT Student Programmer -
+		\begin{enumerate}
+
+			\item{\hl{Overhauled \textbf{data analysis} and \textbf{image composition} capabilities for SPoRT MAG4 solar weather forecasting software}}
+
+			\item{\hl{Worked closesly with professional Atmospheric Scientists and Heliophysicists to develop algorithms to accurately predict the evolution of solar events}}
+
+		\end{enumerate}
+		}
+
+	\entry{2011-2018}{Member of BSA troop 1705, and the Order of the Arrow. Achieved \textbf{Eagle Scout} rank in June 2018. Awarded over than 30 merit badges. 2-term \textbf{Senior Patrol Leader}}
+
+\section{skills}
+\textit{}
+
+	\entry{physics/math}{Earned an A in \hl{Probability and Statistics}, Calculus 1-3, General Physics 1-3, Differential Equations, Linear Algebra, and other related classes; Learned and applied heliophysics principles for MAG4 data analysis}
+
+	\entry{programming}{
+		\begin{enumerate}
+			\item{\hl{\textbf{LaTeX} for formatting and typesetting documentation and technical information}}
+			\item{Python image manipulation and data analysis with matplotlib, numpy, etc.}
+			\item{Linux system and network operations and scripting with Python, Bash, and Perl}
+			\item{Dynamic webpage design with \textbf{HTML5}, \textbf{CSS}, and \textbf{Bootstrap 4}}
+			\item{Object-oriented software and design, especially with \textbf{C\texttt{++}}}
+		\end{enumerate}
+	}
+
+\section{honors}
+\textit{}
+
+	\entry{2018}{Awarded a position on the UAH College of Science 2018 \textbf{Dean's List}}
+
+%	\entry{2018}{Only member of graduating class awarded \textbf{AP Scholar with Distinction} by the College Board} %, with average AP score of 4.3}
+
+	\entry{2017/2018}{\hl{2-time Western Kentucky University state-wide \textbf{Physics Olympics} champion}}
+
+\end{document}

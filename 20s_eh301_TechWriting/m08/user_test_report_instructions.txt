@@ -1,0 +1,17 @@
+The usability test report asks you to provide a summary of your usability test in a 300-500-word memo (see Markel and Selber 253-255 for review of memo structure). In your memo, please provide the following information in these sections (labeled with the exact headers shown in bold below):
+
+ <1> Introduction: A very brief introduction to your usability test that summarizes and a statement of the
+     conclusions you drew from the test.
+ <2> Methodology: A description of the test methodology, including the participant(s), test materials, and
+     test procedure. Include the specific tasks that the user had to complete and any data that you collected (do
+     not include the results of the data collection here, just say that you collected the data). A successful methodology
+     section is specific enough that someone else reading it could conduct the same test in the same way that
+     you did. Also, make sure not to include the user's actual name.
+ <3> Findings: A summary of the findings, including any data that you collected (such as number of user errors
+     how long it took to complete each task, any comments or survey results from the user, etc). Feel free
+     to add visuals, such as graphs, if they help convey the data from the test.
+ <4> Recommendations: Recommendations for revising your user help project based on the findings of the test
+     Make sure that recommendations are specific, actionable, and supported by the data you found in the test
+     Describe the recommendations so that someone else could implement the recommendations.
+
+Your usability test report should be clear, concise, and informative.

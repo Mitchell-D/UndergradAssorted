@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+
+\usepackage[backend=biber,style=mla]{biblatex}
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{esint}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{blindtext}
+\usepackage{fancyhdr}
+
+\addbibresource{/home/krttd/Documents/UAH.bib}
+
+\doublespacing
+
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\cfoot{}
+\rhead{Dodson \thepage}
+
+\renewcommand*{\bibfont}{\normalsize}
+
+\titleformat{\section}
+{\large}{}{0em}{}[\titlerule]
+
+
+\begin{document}
+
+\vspace*{.5em}
+\begin{center}
+  {\large SPoRT Blog Usability Test Report}
+
+  Mitchell Dodson
+\end{center}
+\vspace{.5em}
+
+\section{procedure}
+
+\noindent
+The user test, which will have 2 participants (Shay S. and Ben H.), will provide valuable information about the usbaility of the SPoRT Blog frontend. Trials will investigate the time and number of clicks required for users to find an article, view SPoRT real-time data (external site), sort articles by category, and interact with web forms. After a trial, the subject will also be asked to provide comments on the subjective difficulty of the task.
+
+\section{data}
+
+\vspace{2em}
+\begin{figure}
+  \centering
+  \begin{tabular}{l | c c | l }
+      test                   & time       & clicks     & comments     \\\hline
+      find article           & -          & -          & -            \\
+      view real-time data    & -          & -          & -            \\
+      sort by category       & -          & -          & -            \\
+      use forms (unfinished) & -          & -          & -            \\
+  \end{tabular}
+\end{figure}
+
+
+
+\printbibliography
+\end{document}

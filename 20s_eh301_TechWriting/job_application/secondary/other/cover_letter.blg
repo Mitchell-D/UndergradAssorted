@@ -1,0 +1,9 @@
+[1] Config.pm:304> INFO - This is Biber 2.13
+[1] Config.pm:307> INFO - Logfile is '/home/krttd/School/20.s/eh301/job_application/secondary/other/cover_letter.blg'
+[34] biber:315> INFO - === Tue Feb 11, 2020, 19:42:59
+[49] Biber.pm:375> INFO - Reading '/home/krttd/School/20.s/eh301/job_application/secondary/other/cover_letter.bcf'
+[134] Biber.pm:905> INFO - Found 0 citekeys in bib section 0
+[143] Utils.pm:300> WARN - The file '/home/krttd/School/20.s/eh301/job_application/secondary/other/cover_letter.bcf' does not contain any citations!
+[152] bbl.pm:648> INFO - Writing '/home/krttd/School/20.s/eh301/job_application/secondary/other/cover_letter.bbl' with encoding 'UTF-8'
+[152] bbl.pm:751> INFO - Output to /home/krttd/School/20.s/eh301/job_application/secondary/other/cover_letter.bbl
+[152] Biber.pm:110> INFO - WARNINGS: 1

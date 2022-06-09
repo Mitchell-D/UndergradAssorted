@@ -1,0 +1,75 @@
+\documentclass[12pt]{article}
+
+\usepackage[backend=biber,style=mla]{biblatex}
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{esint}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{blindtext}
+\usepackage{fancyhdr}
+
+\addbibresource{/home/krttd/documents/UAH.bib}
+
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\cfoot{}
+\rhead{Dodson \thepage}
+
+\renewcommand*{\bibfont}{\normalsize}
+
+\titleformat{\section}
+{\large}{}{0em}{}[\titlerule]
+
+
+\begin{document}
+
+Mitchell Dodson
+
+Dr. Ryan Weber % Professor
+
+Eh 301, Technical Writing % class
+
+April 17, 2020 % date
+
+\begin{center}\large
+Researcher Interview Notes
+\end{center}
+
+\noindent
+Figure \ref{results} is a collection of my results from email-interviewing 3 of the research scientists and NASA SPoRT civil servants who will be actually publishing to the SPoRT blog. This document as a whole will not be part of my term project, but interviews were used to inform design decisions and will at least be referenced to justify these decisions in the API description.
+
+Most of the responses I recieved from the interviewees were very short, so I decided to abbreviate the slightly longer ones so that I could construct Figure \ref{results} as a table which may appear in some form as part of my final Software Design Document. Additionally, One of the researchers interviewed asked to remain nameless, so I decided to make all of the interviews anonymous.
+
+\section{Interview Questions-}
+
+\begin{enumerate}
+  \item{How familiar are you with using command-line interfaces (CLIs)?}
+  \item{What specific command-line programs, if any, do you regularly use?}
+  \item{How do you usually get information about CLI usage?}
+\end{enumerate}
+
+\vspace{2em}
+\begin{figure}[h]
+  \centering
+  \begin{tabular}{l | l | l | l }
+     & \textbf{Q1} & \textbf{Q2} & \textbf{Q3} \\\hline
+    \textbf{Interviewee 1} & very; use daily & vim, ssh, stat, etc.  & man pages, help flags, internal docs \\
+    \textbf{Interviewee 2} & somewhat & ssh, cat, python & internet, help flags \\
+    \textbf{Interviewee 3} & proficient & ssh, perl, feh, ffmpeg & man pages, help flags, internet\\
+  \end{tabular}
+  \caption{Interview responses}
+  \label{results}
+\end{figure}
+
+
+
+
+\printbibliography
+\end{document}

@@ -1,0 +1,97 @@
+\documentclass[12pt]{article}
+
+\usepackage[backend=biber]{biblatex}
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{esint}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{blindtext}
+\usepackage{fancyhdr}
+
+\addbibresource{/home/krttd/documents/UAH.bib}
+
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\cfoot{}
+\rhead{Dodson \thepage}
+
+\renewcommand*{\bibfont}{\normalsize}
+
+\titleformat{\section}
+{\large}{}{0em}{}[\titlerule]
+
+
+\begin{document}
+
+\begin{minipage}[h]{.1\textwidth}
+    To:
+
+    From:
+
+    Date:
+
+    Subject:
+\end{minipage}
+\begin{minipage}[h]{.8\textwidth}
+
+
+    Dr. Ryan Weber
+
+    Mitchell Dodson
+
+    April 17, 2020
+
+    Term Project Progress Report
+\end{minipage}
+
+\section{Introduction}
+
+My Eh 301 term project will consist of a series of technical documents concerning custom software for a locally-hosted blog database, website, and publishing system. Now that I am 10 days away from turning in the project, my focus is soon to transition towards making the actual documents; I'm nearly finished designing and developing the software, making appropriate diagrams, and conducting interviews and tests.
+
+\section{Completed Work}
+
+The first thing I focused on was the development of the abstract design principle of each component of the blog. In doing so, I developed several of the UML diagrams that will be included in the largest section of the final term document. Additionally, I'm nearly finished with a working prototype version of the blog frontend, which should be ready for usability testing soon. Finally, I interviewed several of the actual researchers who will be publishing to the blog; these interviews helped me understand how to properly design the publishing API and command-line interface and will be used as references.
+
+\section{Work Remaining}
+
+Now that I'm nearly finished with the testing, diagramming, and interviewing, I need to start focusing on compiling everything. I've already made a template in \LaTeX for each document, which should work well with the UML diagrams and other images. I plan to conduct the user test with Ben and Shay on Sunday, Aril 19, and begin filling out these templates in the next few days. I may also reformat my bibliography.
+
+\section{Challenges Faced}
+
+This blog project was originally intended to be a sort of correlated effort between writing the actual software as a responsibility of my job and writing the documentation as a responsibility of this class. Unfortunately, my task assignment at my job unavoidably changed soon after I proposed the project, which meant I needed to develop almost all of the technical background for the blog off-the-clock in the time I would usually allocate to classes.  Furthermore, logistic complications (mostly the result of COVID-19) have seriously restricted the amount of time I have to work on this project and all other school-related responsibilities. These things have unfortunately left me a few days behind my project schedule.
+
+\section{Timeline}
+
+\begin{tabular}{l | l | l }
+To Do&In Progress&Completed\\\hline
+Format test data into report&High-level blog philosophy&Design publisher\\
+Write and format publishing info&Module UML& interview researchers \\
+write api descriptions&write publishing info sheet&finish frontend\\
+&Frontend user test&\\
+
+
+\end{tabular}
+
+%\begin{tabular}{l | l l l }
+%                  & time (sec) & references & comments \\\hline
+%    comprehension & 102        & 4          & good explanation but nomenclature is hard to follow \\
+%    iter          & 73         & 1          & file object initially confusing (\textit{guidance provided})\\
+%    zip           & 130        & 2          & easy to understand \\
+%    sort/lambda   & 362        & 7          & lambda is difficult to understand \\
+%
+%\end{tabular}
+
+\nocite{Brooke18}
+\nocite{Melbourne15}
+\nocite{Ceta20}
+\nocite{Andrew18}
+
+\printbibliography
+\end{document}

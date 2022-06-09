@@ -1,0 +1,1510 @@
+
+
+Board state before move 1 by Player.white:
+    *--------------------*
+  9 | . . . . . . . . . |
+  8 | . . . . . . . . . |
+  7 | . . . . . . . . . |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | . . . . . . . . . |
+  3 | . . . . . . . . . |
+  2 | . . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Turn 1 Player.white (o) places at A/2
+
+
+Board state before move 2 by Player.black:
+    *--------------------*
+  9 | . . . . . . . . . |
+  8 | . . . . . . . . . |
+  7 | . . . . . . . . . |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | . . . . . . . . . |
+  3 | . . . . . . . . . |
+  2 | o . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Turn 2 Player.black (x) places at A/4
+
+
+Board state before move 3 by Player.white:
+    *--------------------*
+  9 | . . . . . . . . . |
+  8 | . . . . . . . . . |
+  7 | . . . . . . . . . |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | x . . . . . . . . |
+  3 | . . . . . . . . . |
+  2 | o . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Turn 3 Player.white (o) places at H/4
+
+
+Board state before move 4 by Player.black:
+    *--------------------*
+  9 | . . . . . . . . . |
+  8 | . . . . . . . . . |
+  7 | . . . . . . . . . |
+  6 | . . . . . . . . . |
+  5 | . . . . . . . . . |
+  4 | x . . . . . . o . |
+  3 | . . . . . . . . . |
+  2 | o . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Turn 4 Player.black (x) places at F/5
+
+
+Board state before move 5 by Player.white:
+    *--------------------*
+  9 | . . . . . . . . . |
+  8 | . . . . . . . . . |
+  7 | . . . . . . . . . |
+  6 | . . . . . . . . . |
+  5 | . . . . . x . . . |
+  4 | x . . . . . . o . |
+  3 | . . . . . . . . . |
+  2 | o . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Turn 5 Player.white (o) places at H/7
+
+
+Board state before move 6 by Player.black:
+    *--------------------*
+  9 | . . . . . . . . . |
+  8 | . . . . . . . . . |
+  7 | . . . . . . . o . |
+  6 | . . . . . . . . . |
+  5 | . . . . . x . . . |
+  4 | x . . . . . . o . |
+  3 | . . . . . . . . . |
+  2 | o . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Turn 6 Player.black (x) places at C/3
+
+
+Board state before move 7 by Player.white:
+    *--------------------*
+  9 | . . . . . . . . . |
+  8 | . . . . . . . . . |
+  7 | . . . . . . . o . |
+  6 | . . . . . . . . . |
+  5 | . . . . . x . . . |
+  4 | x . . . . . . o . |
+  3 | . . x . . . . . . |
+  2 | o . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Turn 7 Player.white (o) places at D/4
+
+
+Board state before move 8 by Player.black:
+    *--------------------*
+  9 | . . . . . . . . . |
+  8 | . . . . . . . . . |
+  7 | . . . . . . . o . |
+  6 | . . . . . . . . . |
+  5 | . . . . . x . . . |
+  4 | x . . o . . . o . |
+  3 | . . x . . . . . . |
+  2 | o . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Turn 8 Player.black (x) places at G/5
+
+
+Board state before move 9 by Player.white:
+    *--------------------*
+  9 | . . . . . . . . . |
+  8 | . . . . . . . . . |
+  7 | . . . . . . . o . |
+  6 | . . . . . . . . . |
+  5 | . . . . . x x . . |
+  4 | x . . o . . . o . |
+  3 | . . x . . . . . . |
+  2 | o . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Turn 9 Player.white (o) places at I/6
+
+
+Board state before move 10 by Player.black:
+    *--------------------*
+  9 | . . . . . . . . . |
+  8 | . . . . . . . . . |
+  7 | . . . . . . . o . |
+  6 | . . . . . . . . o |
+  5 | . . . . . x x . . |
+  4 | x . . o . . . o . |
+  3 | . . x . . . . . . |
+  2 | o . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Turn 10 Player.black (x) places at F/7
+
+
+Board state before move 11 by Player.white:
+    *--------------------*
+  9 | . . . . . . . . . |
+  8 | . . . . . . . . . |
+  7 | . . . . . x . o . |
+  6 | . . . . . . . . o |
+  5 | . . . . . x x . . |
+  4 | x . . o . . . o . |
+  3 | . . x . . . . . . |
+  2 | o . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Turn 11 Player.white (o) places at E/7
+
+
+Board state before move 12 by Player.black:
+    *--------------------*
+  9 | . . . . . . . . . |
+  8 | . . . . . . . . . |
+  7 | . . . . o x . o . |
+  6 | . . . . . . . . o |
+  5 | . . . . . x x . . |
+  4 | x . . o . . . o . |
+  3 | . . x . . . . . . |
+  2 | o . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Turn 12 Player.black (x) places at G/3
+
+
+Board state before move 13 by Player.white:
+    *--------------------*
+  9 | . . . . . . . . . |
+  8 | . . . . . . . . . |
+  7 | . . . . o x . o . |
+  6 | . . . . . . . . o |
+  5 | . . . . . x x . . |
+  4 | x . . o . . . o . |
+  3 | . . x . . . x . . |
+  2 | o . . . . . . . . |
+  1 | . . . . . . . . . |
+    *--------------------*
+      A B C D E F G H I
+Turn 13 Player.white (o) places at I/1
+
+
+Board state before move 14 by Player.black:
+    *--------------------*
+  9 | . . . . . . . . . |
+  8 | . . . . . . . . . |
+  7 | . . . . o x . o . |
+  6 | . . . . . . . . o |
+  5 | . . . . . x x . . |
+  4 | x . . o . . . o . |
+  3 | . . x . . . x . . |
+  2 | o . . . . . . . . |
+  1 | . . . . . . . . o |
+    *--------------------*
+      A B C D E F G H I
+Turn 14 Player.black (x) places at H/2
+
+
+Board state before move 15 by Player.white:
+    *--------------------*
+  9 | . . . . . . . . . |
+  8 | . . . . . . . . . |
+  7 | . . . . o x . o . |
+  6 | . . . . . . . . o |
+  5 | . . . . . x x . . |
+  4 | x . . o . . . o . |
+  3 | . . x . . . x . . |
+  2 | o . . . . . . x . |
+  1 | . . . . . . . . o |
+    *--------------------*
+      A B C D E F G H I
+Turn 15 Player.white (o) places at F/2
+
+
+Board state before move 16 by Player.black:
+    *--------------------*
+  9 | . . . . . . . . . |
+  8 | . . . . . . . . . |
+  7 | . . . . o x . o . |
+  6 | . . . . . . . . o |
+  5 | . . . . . x x . . |
+  4 | x . . o . . . o . |
+  3 | . . x . . . x . . |
+  2 | o . . . . o . x . |
+  1 | . . . . . . . . o |
+    *--------------------*
+      A B C D E F G H I
+Turn 16 Player.black (x) places at H/9
+
+
+Board state before move 17 by Player.white:
+    *--------------------*
+  9 | . . . . . . . x . |
+  8 | . . . . . . . . . |
+  7 | . . . . o x . o . |
+  6 | . . . . . . . . o |
+  5 | . . . . . x x . . |
+  4 | x . . o . . . o . |
+  3 | . . x . . . x . . |
+  2 | o . . . . o . x . |
+  1 | . . . . . . . . o |
+    *--------------------*
+      A B C D E F G H I
+Turn 17 Player.white (o) places at G/7
+
+
+Board state before move 18 by Player.black:
+    *--------------------*
+  9 | . . . . . . . x . |
+  8 | . . . . . . . . . |
+  7 | . . . . o x o o . |
+  6 | . . . . . . . . o |
+  5 | . . . . . x x . . |
+  4 | x . . o . . . o . |
+  3 | . . x . . . x . . |
+  2 | o . . . . o . x . |
+  1 | . . . . . . . . o |
+    *--------------------*
+      A B C D E F G H I
+Turn 18 Player.black (x) places at B/5
+
+
+Board state before move 19 by Player.white:
+    *--------------------*
+  9 | . . . . . . . x . |
+  8 | . . . . . . . . . |
+  7 | . . . . o x o o . |
+  6 | . . . . . . . . o |
+  5 | . x . . . x x . . |
+  4 | x . . o . . . o . |
+  3 | . . x . . . x . . |
+  2 | o . . . . o . x . |
+  1 | . . . . . . . . o |
+    *--------------------*
+      A B C D E F G H I
+Turn 19 Player.white (o) places at I/3
+
+
+Board state before move 20 by Player.black:
+    *--------------------*
+  9 | . . . . . . . x . |
+  8 | . . . . . . . . . |
+  7 | . . . . o x o o . |
+  6 | . . . . . . . . o |
+  5 | . x . . . x x . . |
+  4 | x . . o . . . o . |
+  3 | . . x . . . x . o |
+  2 | o . . . . o . x . |
+  1 | . . . . . . . . o |
+    *--------------------*
+      A B C D E F G H I
+Turn 20 Player.black (x) places at D/2
+
+
+Board state before move 21 by Player.white:
+    *--------------------*
+  9 | . . . . . . . x . |
+  8 | . . . . . . . . . |
+  7 | . . . . o x o o . |
+  6 | . . . . . . . . o |
+  5 | . x . . . x x . . |
+  4 | x . . o . . . o . |
+  3 | . . x . . . x . o |
+  2 | o . . x . o . x . |
+  1 | . . . . . . . . o |
+    *--------------------*
+      A B C D E F G H I
+Turn 21 Player.white (o) places at E/9
+
+
+Board state before move 22 by Player.black:
+    *--------------------*
+  9 | . . . . o . . x . |
+  8 | . . . . . . . . . |
+  7 | . . . . o x o o . |
+  6 | . . . . . . . . o |
+  5 | . x . . . x x . . |
+  4 | x . . o . . . o . |
+  3 | . . x . . . x . o |
+  2 | o . . x . o . x . |
+  1 | . . . . . . . . o |
+    *--------------------*
+      A B C D E F G H I
+Turn 22 Player.black (x) places at I/5
+
+
+Board state before move 23 by Player.white:
+    *--------------------*
+  9 | . . . . o . . x . |
+  8 | . . . . . . . . . |
+  7 | . . . . o x o o . |
+  6 | . . . . . . . . o |
+  5 | . x . . . x x . x |
+  4 | x . . o . . . o . |
+  3 | . . x . . . x . o |
+  2 | o . . x . o . x . |
+  1 | . . . . . . . . o |
+    *--------------------*
+      A B C D E F G H I
+Turn 23 Player.white (o) places at B/8
+
+
+Board state before move 24 by Player.black:
+    *--------------------*
+  9 | . . . . o . . x . |
+  8 | . o . . . . . . . |
+  7 | . . . . o x o o . |
+  6 | . . . . . . . . o |
+  5 | . x . . . x x . x |
+  4 | x . . o . . . o . |
+  3 | . . x . . . x . o |
+  2 | o . . x . o . x . |
+  1 | . . . . . . . . o |
+    *--------------------*
+      A B C D E F G H I
+Turn 24 Player.black (x) places at H/3
+
+
+Board state before move 25 by Player.white:
+    *--------------------*
+  9 | . . . . o . . x . |
+  8 | . o . . . . . . . |
+  7 | . . . . o x o o . |
+  6 | . . . . . . . . o |
+  5 | . x . . . x x . x |
+  4 | x . . o . . . o . |
+  3 | . . x . . . x x o |
+  2 | o . . x . o . x . |
+  1 | . . . . . . . . o |
+    *--------------------*
+      A B C D E F G H I
+Turn 25 Player.white (o) places at H/6
+
+
+Board state before move 26 by Player.black:
+    *--------------------*
+  9 | . . . . o . . x . |
+  8 | . o . . . . . . . |
+  7 | . . . . o x o o . |
+  6 | . . . . . . . o o |
+  5 | . x . . . x x . x |
+  4 | x . . o . . . o . |
+  3 | . . x . . . x x o |
+  2 | o . . x . o . x . |
+  1 | . . . . . . . . o |
+    *--------------------*
+      A B C D E F G H I
+Turn 26 Player.black (x) places at H/1
+
+
+Board state before move 27 by Player.white:
+    *--------------------*
+  9 | . . . . o . . x . |
+  8 | . o . . . . . . . |
+  7 | . . . . o x o o . |
+  6 | . . . . . . . o o |
+  5 | . x . . . x x . x |
+  4 | x . . o . . . o . |
+  3 | . . x . . . x x o |
+  2 | o . . x . o . x . |
+  1 | . . . . . . . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 27 Player.white (o) places at F/1
+
+
+Board state before move 28 by Player.black:
+    *--------------------*
+  9 | . . . . o . . x . |
+  8 | . o . . . . . . . |
+  7 | . . . . o x o o . |
+  6 | . . . . . . . o o |
+  5 | . x . . . x x . x |
+  4 | x . . o . . . o . |
+  3 | . . x . . . x x o |
+  2 | o . . x . o . x . |
+  1 | . . . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 28 Player.black (x) places at F/4
+
+
+Board state before move 29 by Player.white:
+    *--------------------*
+  9 | . . . . o . . x . |
+  8 | . o . . . . . . . |
+  7 | . . . . o x o o . |
+  6 | . . . . . . . o o |
+  5 | . x . . . x x . x |
+  4 | x . . o . x . o . |
+  3 | . . x . . . x x o |
+  2 | o . . x . o . x . |
+  1 | . . . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 29 Player.white (o) places at C/5
+
+
+Board state before move 30 by Player.black:
+    *--------------------*
+  9 | . . . . o . . x . |
+  8 | . o . . . . . . . |
+  7 | . . . . o x o o . |
+  6 | . . . . . . . o o |
+  5 | . x o . . x x . x |
+  4 | x . . o . x . o . |
+  3 | . . x . . . x x o |
+  2 | o . . x . o . x . |
+  1 | . . . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 30 Player.black (x) places at A/1
+
+
+Board state before move 31 by Player.white:
+    *--------------------*
+  9 | . . . . o . . x . |
+  8 | . o . . . . . . . |
+  7 | . . . . o x o o . |
+  6 | . . . . . . . o o |
+  5 | . x o . . x x . x |
+  4 | x . . o . x . o . |
+  3 | . . x . . . x x o |
+  2 | o . . x . o . x . |
+  1 | x . . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 31 Player.white (o) places at C/8
+
+
+Board state before move 32 by Player.black:
+    *--------------------*
+  9 | . . . . o . . x . |
+  8 | . o o . . . . . . |
+  7 | . . . . o x o o . |
+  6 | . . . . . . . o o |
+  5 | . x o . . x x . x |
+  4 | x . . o . x . o . |
+  3 | . . x . . . x x o |
+  2 | o . . x . o . x . |
+  1 | x . . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 32 Player.black (x) places at I/7
+
+
+Board state before move 33 by Player.white:
+    *--------------------*
+  9 | . . . . o . . x . |
+  8 | . o o . . . . . . |
+  7 | . . . . o x o o x |
+  6 | . . . . . . . o o |
+  5 | . x o . . x x . x |
+  4 | x . . o . x . o . |
+  3 | . . x . . . x x o |
+  2 | o . . x . o . x . |
+  1 | x . . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 33 Player.white (o) places at E/3
+
+
+Board state before move 34 by Player.black:
+    *--------------------*
+  9 | . . . . o . . x . |
+  8 | . o o . . . . . . |
+  7 | . . . . o x o o x |
+  6 | . . . . . . . o o |
+  5 | . x o . . x x . x |
+  4 | x . . o . x . o . |
+  3 | . . x . o . x x o |
+  2 | o . . x . o . x . |
+  1 | x . . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 34 Player.black (x) places at G/4
+
+
+Board state before move 35 by Player.white:
+    *--------------------*
+  9 | . . . . o . . x . |
+  8 | . o o . . . . . . |
+  7 | . . . . o x o o x |
+  6 | . . . . . . . o o |
+  5 | . x o . . x x . x |
+  4 | x . . o . x x o . |
+  3 | . . x . o . x x o |
+  2 | o . . x . o . x . |
+  1 | x . . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 35 Player.white (o) places at C/9
+
+
+Board state before move 36 by Player.black:
+    *--------------------*
+  9 | . . o . o . . x . |
+  8 | . o o . . . . . . |
+  7 | . . . . o x o o x |
+  6 | . . . . . . . o o |
+  5 | . x o . . x x . x |
+  4 | x . . o . x x o . |
+  3 | . . x . o . x x o |
+  2 | o . . x . o . x . |
+  1 | x . . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 36 Player.black (x) places at D/9
+
+
+Board state before move 37 by Player.white:
+    *--------------------*
+  9 | . . o x o . . x . |
+  8 | . o o . . . . . . |
+  7 | . . . . o x o o x |
+  6 | . . . . . . . o o |
+  5 | . x o . . x x . x |
+  4 | x . . o . x x o . |
+  3 | . . x . o . x x o |
+  2 | o . . x . o . x . |
+  1 | x . . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 37 Player.white (o) places at E/5
+
+
+Board state before move 38 by Player.black:
+    *--------------------*
+  9 | . . o x o . . x . |
+  8 | . o o . . . . . . |
+  7 | . . . . o x o o x |
+  6 | . . . . . . . o o |
+  5 | . x o . o x x . x |
+  4 | x . . o . x x o . |
+  3 | . . x . o . x x o |
+  2 | o . . x . o . x . |
+  1 | x . . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 38 Player.black (x) places at E/8
+
+
+Board state before move 39 by Player.white:
+    *--------------------*
+  9 | . . o x o . . x . |
+  8 | . o o . x . . . . |
+  7 | . . . . o x o o x |
+  6 | . . . . . . . o o |
+  5 | . x o . o x x . x |
+  4 | x . . o . x x o . |
+  3 | . . x . o . x x o |
+  2 | o . . x . o . x . |
+  1 | x . . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 39 Player.white (o) places at B/3
+
+
+Board state before move 40 by Player.black:
+    *--------------------*
+  9 | . . o x o . . x . |
+  8 | . o o . x . . . . |
+  7 | . . . . o x o o x |
+  6 | . . . . . . . o o |
+  5 | . x o . o x x . x |
+  4 | x . . o . x x o . |
+  3 | . o x . o . x x o |
+  2 | o . . x . o . x . |
+  1 | x . . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 40 Player.black (x) places at B/1
+
+
+Board state before move 41 by Player.white:
+    *--------------------*
+  9 | . . o x o . . x . |
+  8 | . o o . x . . . . |
+  7 | . . . . o x o o x |
+  6 | . . . . . . . o o |
+  5 | . x o . o x x . x |
+  4 | x . . o . x x o . |
+  3 | . o x . o . x x o |
+  2 | o . . x . o . x . |
+  1 | x x . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 41 Player.white (o) places at E/2
+
+
+Board state before move 42 by Player.black:
+    *--------------------*
+  9 | . . o x o . . x . |
+  8 | . o o . x . . . . |
+  7 | . . . . o x o o x |
+  6 | . . . . . . . o o |
+  5 | . x o . o x x . x |
+  4 | x . . o . x x o . |
+  3 | . o x . o . x x o |
+  2 | o . . x o o . x . |
+  1 | x x . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 42 Player.black (x) places at I/9
+
+
+Board state before move 43 by Player.white:
+    *--------------------*
+  9 | . . o x o . . x x |
+  8 | . o o . x . . . . |
+  7 | . . . . o x o o x |
+  6 | . . . . . . . o o |
+  5 | . x o . o x x . x |
+  4 | x . . o . x x o . |
+  3 | . o x . o . x x o |
+  2 | o . . x o o . x . |
+  1 | x x . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 43 Player.white (o) places at F/8
+
+
+Board state before move 44 by Player.black:
+    *--------------------*
+  9 | . . o x o . . x x |
+  8 | . o o . x o . . . |
+  7 | . . . . o x o o x |
+  6 | . . . . . . . o o |
+  5 | . x o . o x x . x |
+  4 | x . . o . x x o . |
+  3 | . o x . o . x x o |
+  2 | o . . x o o . x . |
+  1 | x x . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 44 Player.black (x) places at B/2
+
+
+Board state before move 45 by Player.white:
+    *--------------------*
+  9 | . . o x o . . x x |
+  8 | . o o . x o . . . |
+  7 | . . . . o x o o x |
+  6 | . . . . . . . o o |
+  5 | . x o . o x x . x |
+  4 | x . . o . x x o . |
+  3 | . o x . o . x x o |
+  2 | o x . x o o . x . |
+  1 | x x . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 45 Player.white (o) places at F/3
+
+
+Board state before move 46 by Player.black:
+    *--------------------*
+  9 | . . o x o . . x x |
+  8 | . o o . x o . . . |
+  7 | . . . . o x o o x |
+  6 | . . . . . . . o o |
+  5 | . x o . o x x . x |
+  4 | x . . o . x x o . |
+  3 | . o x . o o x x o |
+  2 | o x . x o o . x . |
+  1 | x x . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 46 Player.black (x) places at C/4
+
+
+Board state before move 47 by Player.white:
+    *--------------------*
+  9 | . . o x o . . x x |
+  8 | . o o . x o . . . |
+  7 | . . . . o x o o x |
+  6 | . . . . . . . o o |
+  5 | . x o . o x x . x |
+  4 | x . x o . x x o . |
+  3 | . o x . o o x x o |
+  2 | o x . x o o . x . |
+  1 | x x . . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 47 Player.white (o) places at C/1
+
+
+Board state before move 48 by Player.black:
+    *--------------------*
+  9 | . . o x o . . x x |
+  8 | . o o . x o . . . |
+  7 | . . . . o x o o x |
+  6 | . . . . . . . o o |
+  5 | . x o . o x x . x |
+  4 | x . x o . x x o . |
+  3 | . o x . o o x x o |
+  2 | o x . x o o . x . |
+  1 | x x o . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 48 Player.black (x) places at D/6
+
+
+Board state before move 49 by Player.white:
+    *--------------------*
+  9 | . . o x o . . x x |
+  8 | . o o . x o . . . |
+  7 | . . . . o x o o x |
+  6 | . . . x . . . o o |
+  5 | . x o . o x x . x |
+  4 | x . x o . x x o . |
+  3 | . o x . o o x x o |
+  2 | o x . x o o . x . |
+  1 | x x o . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 49 Player.white (o) places at H/8
+
+
+Board state before move 50 by Player.black:
+    *--------------------*
+  9 | . . o x o . . x x |
+  8 | . o o . x o . o . |
+  7 | . . . . o x o o x |
+  6 | . . . x . . . o o |
+  5 | . x o . o x x . x |
+  4 | x . x o . x x o . |
+  3 | . o x . o o x x o |
+  2 | o x . x o o . x . |
+  1 | x x o . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 50 Player.black (x) places at C/6
+
+
+Board state before move 51 by Player.white:
+    *--------------------*
+  9 | . . o x o . . x x |
+  8 | . o o . x o . o . |
+  7 | . . . . o x o o x |
+  6 | . . x x . . . o o |
+  5 | . x o . o x x . x |
+  4 | x . x o . x x o . |
+  3 | . o x . o o x x o |
+  2 | o x . x o o . x . |
+  1 | x x o . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 51 Player.white (o) places at A/5
+
+
+Board state before move 52 by Player.black:
+    *--------------------*
+  9 | . . o x o . . x x |
+  8 | . o o . x o . o . |
+  7 | . . . . o x o o x |
+  6 | . . x x . . . o o |
+  5 | o x o . o x x . x |
+  4 | x . x o . x x o . |
+  3 | . o x . o o x x o |
+  2 | o x . x o o . x . |
+  1 | x x o . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 52 Player.black (x) places at B/9
+
+
+Board state before move 53 by Player.white:
+    *--------------------*
+  9 | . x o x o . . x x |
+  8 | . o o . x o . o . |
+  7 | . . . . o x o o x |
+  6 | . . x x . . . o o |
+  5 | o x o . o x x . x |
+  4 | x . x o . x x o . |
+  3 | . o x . o o x x o |
+  2 | o x . x o o . x . |
+  1 | x x o . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 53 Player.white (o) places at A/7
+
+
+Board state before move 54 by Player.black:
+    *--------------------*
+  9 | . x o x o . . x x |
+  8 | . o o . x o . o . |
+  7 | o . . . o x o o x |
+  6 | . . x x . . . o o |
+  5 | o x o . o x x . x |
+  4 | x . x o . x x o . |
+  3 | . o x . o o x x o |
+  2 | o x . x o o . x . |
+  1 | x x o . . o . x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 54 Player.black (x) places at G/1
+
+
+Board state before move 55 by Player.white:
+    *--------------------*
+  9 | . x o x o . . x x |
+  8 | . o o . x o . o . |
+  7 | o . . . o x o o x |
+  6 | . . x x . . . o o |
+  5 | o x o . o x x . x |
+  4 | x . x o . x x o . |
+  3 | . o x . o o x x o |
+  2 | o x . x o o . x . |
+  1 | x x o . . o x x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 55 Player.white (o) places at G/9
+
+
+Board state before move 56 by Player.black:
+    *--------------------*
+  9 | . x o x o . o x x |
+  8 | . o o . x o . o . |
+  7 | o . . . o x o o x |
+  6 | . . x x . . . o o |
+  5 | o x o . o x x . x |
+  4 | x . x o . x x o . |
+  3 | . o x . o o x x o |
+  2 | o x . x o o . x . |
+  1 | x x o . . o x x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 56 Player.black (x) places at A/9
+
+
+Board state before move 57 by Player.white:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | . o o . x o . o . |
+  7 | o . . . o x o o x |
+  6 | . . x x . . . o o |
+  5 | o x o . o x x . x |
+  4 | x . x o . x x o . |
+  3 | . o x . o o x x o |
+  2 | o x . x o o . x . |
+  1 | x x o . . o x x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 57 Player.white (o) places at E/4
+
+
+Board state before move 58 by Player.black:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | . o o . x o . o . |
+  7 | o . . . o x o o x |
+  6 | . . x x . . . o o |
+  5 | o x o . o x x . x |
+  4 | x . x o o x x o . |
+  3 | . o x . o o x x o |
+  2 | o x . x o o . x . |
+  1 | x x o . . o x x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 58 Player.black (x) places at F/6
+
+
+Board state before move 59 by Player.white:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | . o o . x o . o . |
+  7 | o . . . o x o o x |
+  6 | . . x x . x . o o |
+  5 | o x o . o x x . x |
+  4 | x . x o o x x o . |
+  3 | . o x . o o x x o |
+  2 | o x . x o o . x . |
+  1 | x x o . . o x x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 59 Player.white (o) places at G/6
+
+
+Board state before move 60 by Player.black:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | . o o . x o . o . |
+  7 | o . . . o x o o x |
+  6 | . . x x . x o o o |
+  5 | o x o . o x x . x |
+  4 | x . x o o x x o . |
+  3 | . o x . o o x x o |
+  2 | o x . x o o . x . |
+  1 | x x o . . o x x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 60 Player.black (x) places at B/4
+
+
+Board state before move 61 by Player.white:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | . o o . x o . o . |
+  7 | o . . . o x o o x |
+  6 | . . x x . x o o o |
+  5 | o x o . o x x . x |
+  4 | x x x o o x x o . |
+  3 | . o x . o o x x o |
+  2 | o x . x o o . x . |
+  1 | x x o . . o x x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 61 Player.white (o) places at G/2
+
+
+Board state before move 62 by Player.black:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | . o o . x o . o . |
+  7 | o . . . o x o o x |
+  6 | . . x x . x o o o |
+  5 | o x o . o x x . x |
+  4 | x x x o o x x o . |
+  3 | . o x . o o x x o |
+  2 | o x . x o o o x . |
+  1 | x x o . . o x x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 62 Player.black (x) places at D/3
+
+
+Board state before move 63 by Player.white:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | . o o . x o . o . |
+  7 | o . . . o x o o x |
+  6 | . . x x . x o o o |
+  5 | o x o . o x x . x |
+  4 | x x x o o x x o . |
+  3 | . o x x o o x x o |
+  2 | o x . x o o o x . |
+  1 | x x o . . o x x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 63 Player.white (o) places at B/7
+
+
+Board state before move 64 by Player.black:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | . o o . x o . o . |
+  7 | o o . . o x o o x |
+  6 | . . x x . x o o o |
+  5 | o x o . o x x . x |
+  4 | x x x o o x x o . |
+  3 | . o x x o o x x o |
+  2 | o x . x o o o x . |
+  1 | x x o . . o x x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 64 Player.black (x) places at A/8
+
+
+Board state before move 65 by Player.white:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | x o o . x o . o . |
+  7 | o o . . o x o o x |
+  6 | . . x x . x o o o |
+  5 | o x o . o x x . x |
+  4 | x x x o o x x o . |
+  3 | . o x x o o x x o |
+  2 | o x . x o o o x . |
+  1 | x x o . . o x x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 65 Player.white (o) places at E/6
+
+
+Board state before move 66 by Player.black:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | x o o . x o . o . |
+  7 | o o . . o x o o x |
+  6 | . . x x o x o o o |
+  5 | o x o . o x x . x |
+  4 | x x x o o x x o . |
+  3 | . o x x o o x x o |
+  2 | o x . x o o o x . |
+  1 | x x o . . o x x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 66 Player.black (x) places at A/6
+removing points: {Point(row=5, col=1)}
+
+
+Board state before move 67 by Player.white:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | x o o . x o . o . |
+  7 | o o . . o x o o x |
+  6 | x . x x o x o o o |
+  5 | . x o . o x x . x |
+  4 | x x x o o x x o . |
+  3 | . o x x o o x x o |
+  2 | o x . x o o o x . |
+  1 | x x o . . o x x o |
+    *--------------------*
+      A B C D E F G H I
+5,1 is an eye.
+Turn 67 Player.white (o) places at I/4
+
+
+Board state before move 68 by Player.black:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | x o o . x o . o . |
+  7 | o o . . o x o o x |
+  6 | x . x x o x o o o |
+  5 | . x o . o x x . x |
+  4 | x x x o o x x o o |
+  3 | . o x x o o x x o |
+  2 | o x . x o o o x . |
+  1 | x x o . . o x x o |
+    *--------------------*
+      A B C D E F G H I
+Turn 68 Player.black (x) places at I/2
+removing points: {Point(row=1, col=9)}
+
+
+Board state before move 69 by Player.white:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | x o o . x o . o . |
+  7 | o o . . o x o o x |
+  6 | x . x x o x o o o |
+  5 | . x o . o x x . x |
+  4 | x x x o o x x o o |
+  3 | . o x x o o x x o |
+  2 | o x . x o o o x x |
+  1 | x x o . . o x x . |
+    *--------------------*
+      A B C D E F G H I
+1,9 is an eye.
+5,1 is an eye.
+Turn 69 Player.white (o) places at D/5
+
+
+Board state before move 70 by Player.black:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | x o o . x o . o . |
+  7 | o o . . o x o o x |
+  6 | x . x x o x o o o |
+  5 | . x o o o x x . x |
+  4 | x x x o o x x o o |
+  3 | . o x x o o x x o |
+  2 | o x . x o o o x x |
+  1 | x x o . . o x x . |
+    *--------------------*
+      A B C D E F G H I
+Turn 70 Player.black (x) places at D/1
+
+
+Board state before move 71 by Player.white:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | x o o . x o . o . |
+  7 | o o . . o x o o x |
+  6 | x . x x o x o o o |
+  5 | . x o o o x x . x |
+  4 | x x x o o x x o o |
+  3 | . o x x o o x x o |
+  2 | o x . x o o o x x |
+  1 | x x o x . o x x . |
+    *--------------------*
+      A B C D E F G H I
+1,9 is an eye.
+5,1 is an eye.
+Turn 71 Player.white (o) places at B/6
+
+
+Board state before move 72 by Player.black:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | x o o . x o . o . |
+  7 | o o . . o x o o x |
+  6 | x o x x o x o o o |
+  5 | . x o o o x x . x |
+  4 | x x x o o x x o o |
+  3 | . o x x o o x x o |
+  2 | o x . x o o o x x |
+  1 | x x o x . o x x . |
+    *--------------------*
+      A B C D E F G H I
+Turn 72 Player.black (x) places at C/2
+removing points: {Point(row=1, col=3)}
+
+
+Board state before move 73 by Player.white:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | x o o . x o . o . |
+  7 | o o . . o x o o x |
+  6 | x o x x o x o o o |
+  5 | . x o o o x x . x |
+  4 | x x x o o x x o o |
+  3 | . o x x o o x x o |
+  2 | o x x x o o o x x |
+  1 | x x . x . o x x . |
+    *--------------------*
+      A B C D E F G H I
+1,3 is an eye.
+1,9 is an eye.
+5,1 is an eye.
+Turn 73 Player.white (o) places at C/7
+
+
+Board state before move 74 by Player.black:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | x o o . x o . o . |
+  7 | o o o . o x o o x |
+  6 | x o x x o x o o o |
+  5 | . x o o o x x . x |
+  4 | x x x o o x x o o |
+  3 | . o x x o o x x o |
+  2 | o x x x o o o x x |
+  1 | x x . x . o x x . |
+    *--------------------*
+      A B C D E F G H I
+Turn 74 Player.black (x) places at I/8
+
+
+Board state before move 75 by Player.white:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | x o o . x o . o x |
+  7 | o o o . o x o o x |
+  6 | x o x x o x o o o |
+  5 | . x o o o x x . x |
+  4 | x x x o o x x o o |
+  3 | . o x x o o x x o |
+  2 | o x x x o o o x x |
+  1 | x x . x . o x x . |
+    *--------------------*
+      A B C D E F G H I
+1,3 is an eye.
+1,9 is an eye.
+5,1 is an eye.
+Turn 75 Player.white (o) places at D/7
+removing points: {Point(row=6, col=3), Point(row=6, col=4)}
+
+
+Board state before move 76 by Player.black:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | x o o . x o . o x |
+  7 | o o o o o x o o x |
+  6 | x o . . o x o o o |
+  5 | . x o o o x x . x |
+  4 | x x x o o x x o o |
+  3 | . o x x o o x x o |
+  2 | o x x x o o o x x |
+  1 | x x . x . o x x . |
+    *--------------------*
+      A B C D E F G H I
+Turn 76 Player.black (x) places at H/5
+removing points: {Point(row=4, col=9), Point(row=3, col=9), Point(row=4, col=8)}
+
+
+Board state before move 77 by Player.white:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | x o o . x o . o x |
+  7 | o o o o o x o o x |
+  6 | x o . . o x o o o |
+  5 | . x o o o x x x x |
+  4 | x x x o o x x . . |
+  3 | . o x x o o x x . |
+  2 | o x x x o o o x x |
+  1 | x x . x . o x x . |
+    *--------------------*
+      A B C D E F G H I
+1,3 is an eye.
+1,9 is an eye.
+5,1 is an eye.
+Turn 77 Player.white (o) places at H/4
+
+
+Board state before move 78 by Player.black:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | x o o . x o . o x |
+  7 | o o o o o x o o x |
+  6 | x o . . o x o o o |
+  5 | . x o o o x x x x |
+  4 | x x x o o x x o . |
+  3 | . o x x o o x x . |
+  2 | o x x x o o o x x |
+  1 | x x . x . o x x . |
+    *--------------------*
+      A B C D E F G H I
+Turn 78 Player.black (x) places at D/6
+
+
+Board state before move 79 by Player.white:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | x o o . x o . o x |
+  7 | o o o o o x o o x |
+  6 | x o . x o x o o o |
+  5 | . x o o o x x x x |
+  4 | x x x o o x x o . |
+  3 | . o x x o o x x . |
+  2 | o x x x o o o x x |
+  1 | x x . x . o x x . |
+    *--------------------*
+      A B C D E F G H I
+1,3 is an eye.
+1,9 is an eye.
+5,1 is an eye.
+Turn 79 Player.white (o) places at G/8
+
+
+Board state before move 80 by Player.black:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | x o o . x o o o x |
+  7 | o o o o o x o o x |
+  6 | x o . x o x o o o |
+  5 | . x o o o x x x x |
+  4 | x x x o o x x o . |
+  3 | . o x x o o x x . |
+  2 | o x x x o o o x x |
+  1 | x x . x . o x x . |
+    *--------------------*
+      A B C D E F G H I
+Turn 80 Player.black (x) places at D/8
+
+
+Board state before move 81 by Player.white:
+    *--------------------*
+  9 | x x o x o . o x x |
+  8 | x o o x x o o o x |
+  7 | o o o o o x o o x |
+  6 | x o . x o x o o o |
+  5 | . x o o o x x x x |
+  4 | x x x o o x x o . |
+  3 | . o x x o o x x . |
+  2 | o x x x o o o x x |
+  1 | x x . x . o x x . |
+    *--------------------*
+      A B C D E F G H I
+1,3 is an eye.
+1,9 is an eye.
+5,1 is an eye.
+Turn 81 Player.white (o) places at F/9
+
+
+Board state before move 82 by Player.black:
+    *--------------------*
+  9 | x x o x o o o x x |
+  8 | x o o x x o o o x |
+  7 | o o o o o x o o x |
+  6 | x o . x o x o o o |
+  5 | . x o o o x x x x |
+  4 | x x x o o x x o . |
+  3 | . o x x o o x x . |
+  2 | o x x x o o o x x |
+  1 | x x . x . o x x . |
+    *--------------------*
+      A B C D E F G H I
+Turn 82 Player.black (x) places at E/1
+
+
+Board state before move 83 by Player.white:
+    *--------------------*
+  9 | x x o x o o o x x |
+  8 | x o o x x o o o x |
+  7 | o o o o o x o o x |
+  6 | x o . x o x o o o |
+  5 | . x o o o x x x x |
+  4 | x x x o o x x o . |
+  3 | . o x x o o x x . |
+  2 | o x x x o o o x x |
+  1 | x x . x x o x x . |
+    *--------------------*
+      A B C D E F G H I
+1,3 is an eye.
+1,9 is an eye.
+5,1 is an eye.
+Turn 83 Player.white (o) places at C/6
+removing points: {Point(row=6, col=4)}
+
+
+Board state before move 84 by Player.black:
+    *--------------------*
+  9 | x x o x o o o x x |
+  8 | x o o x x o o o x |
+  7 | o o o o o x o o x |
+  6 | x o o . o x o o o |
+  5 | . x o o o x x x x |
+  4 | x x x o o x x o . |
+  3 | . o x x o o x x . |
+  2 | o x x x o o o x x |
+  1 | x x . x x o x x . |
+    *--------------------*
+      A B C D E F G H I
+6,4 is an eye.
+Turn 84 Player.black (x) places at I/3
+
+
+Board state before move 85 by Player.white:
+    *--------------------*
+  9 | x x o x o o o x x |
+  8 | x o o x x o o o x |
+  7 | o o o o o x o o x |
+  6 | x o o . o x o o o |
+  5 | . x o o o x x x x |
+  4 | x x x o o x x o . |
+  3 | . o x x o o x x x |
+  2 | o x x x o o o x x |
+  1 | x x . x x o x x . |
+    *--------------------*
+      A B C D E F G H I
+1,3 is an eye.
+1,9 is an eye.
+5,1 is an eye.
+Turn 85 Player.white (o) places at I/4
+
+
+Board state before move 86 by Player.black:
+    *--------------------*
+  9 | x x o x o o o x x |
+  8 | x o o x x o o o x |
+  7 | o o o o o x o o x |
+  6 | x o o . o x o o o |
+  5 | . x o o o x x x x |
+  4 | x x x o o x x o o |
+  3 | . o x x o o x x x |
+  2 | o x x x o o o x x |
+  1 | x x . x x o x x . |
+    *--------------------*
+      A B C D E F G H I
+6,4 is an eye.
+Turn 86 Player.black (x) places at I/1
+
+
+Board state before move 87 by Player.white:
+    *--------------------*
+  9 | x x o x o o o x x |
+  8 | x o o x x o o o x |
+  7 | o o o o o x o o x |
+  6 | x o o . o x o o o |
+  5 | . x o o o x x x x |
+  4 | x x x o o x x o o |
+  3 | . o x x o o x x x |
+  2 | o x x x o o o x x |
+  1 | x x . x x o x x x |
+    *--------------------*
+      A B C D E F G H I
+1,3 is an eye.
+5,1 is an eye.
+Turn 87 Player.white (o) places at A/3
+
+
+Board state before move 88 by Player.black:
+    *--------------------*
+  9 | x x o x o o o x x |
+  8 | x o o x x o o o x |
+  7 | o o o o o x o o x |
+  6 | x o o . o x o o o |
+  5 | . x o o o x x x x |
+  4 | x x x o o x x o o |
+  3 | o o x x o o x x x |
+  2 | o x x x o o o x x |
+  1 | x x . x x o x x x |
+    *--------------------*
+      A B C D E F G H I
+6,4 is an eye.
+Turn 88 Player.black (x) places at A/5
+
+
+Board state before move 89 by Player.white:
+    *--------------------*
+  9 | x x o x o o o x x |
+  8 | x o o x x o o o x |
+  7 | o o o o o x o o x |
+  6 | x o o . o x o o o |
+  5 | x x o o o x x x x |
+  4 | x x x o o x x o o |
+  3 | o o x x o o x x x |
+  2 | o x x x o o o x x |
+  1 | x x . x x o x x x |
+    *--------------------*
+      A B C D E F G H I
+1,3 is an eye.
+Turn 89 Player.white (o) places at D/6
+
+
+Board state before move 90 by Player.black:
+    *--------------------*
+  9 | x x o x o o o x x |
+  8 | x o o x x o o o x |
+  7 | o o o o o x o o x |
+  6 | x o o o o x o o o |
+  5 | x x o o o x x x x |
+  4 | x x x o o x x o o |
+  3 | o o x x o o x x x |
+  2 | o x x x o o o x x |
+  1 | x x . x x o x x x |
+    *--------------------*
+      A B C D E F G H I
+Turn 90 Player.black (x) places at C/1
+
+
+Board state before move 91 by Player.white:
+    *--------------------*
+  9 | x x o x o o o x x |
+  8 | x o o x x o o o x |
+  7 | o o o o o x o o x |
+  6 | x o o o o x o o o |
+  5 | x x o o o x x x x |
+  4 | x x x o o x x o o |
+  3 | o o x x o o x x x |
+  2 | o x x x o o o x x |
+  1 | x x x x x o x x x |
+    *--------------------*
+      A B C D E F G H I
+Turn 91 Player.white (o) places at passes this turn
+
+
+Board state before move 92 by Player.black:
+    *--------------------*
+  9 | x x o x o o o x x |
+  8 | x o o x x o o o x |
+  7 | o o o o o x o o x |
+  6 | x o o o o x o o o |
+  5 | x x o o o x x x x |
+  4 | x x x o o x x o o |
+  3 | o o x x o o x x x |
+  2 | o x x x o o o x x |
+  1 | x x x x x o x x x |
+    *--------------------*
+      A B C D E F G H I
+Turn 92 Player.black (x) places at passes this turn

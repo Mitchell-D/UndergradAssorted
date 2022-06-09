@@ -1,0 +1,86 @@
+\documentclass[11pt]{article}
+
+\usepackage[backend=biber,style=mla]{biblatex}
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{esint}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{blindtext}
+\usepackage{fancyhdr}
+
+\addbibresource{/home/krttd/Documents/UAH.bib}
+
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\cfoot{}
+\rhead{Dodson \thepage}
+
+\renewcommand*{\bibfont}{\normalsize}
+
+\titleformat{\section}
+{\large}{}{0em}{}[\titlerule]
+
+
+\begin{document}
+
+\begin{minipage}[h]{.1\textwidth}
+	To:
+
+	From:
+
+	Date:
+
+	Subject:
+\end{minipage}
+\begin{minipage}[h]{.8\textwidth}
+
+	Dr. Ryan Weber
+
+	Mitchell Dodson
+
+	March 09, 2020
+
+	Python 3 Iterable Tricks usability Test Report
+\end{minipage}
+
+\section{Introduction}
+
+Conducting my usability test on my prototype user manual for Python iterables has helped me discover several elements of the manual that deserve to be altered and improved. The data I collected indicates that some of my explanations assume that the target user has more-than-reasonable amount of background knowledge and that some of my wording is somewhat dense and difficult to follow.
+
+\section{Methodology}
+
+Since all of the tasks I cover in my manual are very thematically consistent (manipulating iterable data structures in Python), I thought it would be a good idea to create an actual multi-step programming project for the user to complete while employing several of the tasks. My friend and co-worker Ben H. volunteered as the participating user. Ben has a background in programming and is familiar with Python but has never used any of the strategies covered in the manual, putting him in precisely the correct demographic for user-testing my manual.
+
+Instructions included worded and pictoral descriptions of the final iterable data structure desired, as well as the methods that the subject must use in order to create the desired data structure. No hints or suggestions on the actual implementation of these tasks were included in the instructions.
+
+In order to conduct the test, I first provided the subject with a printout of the user manual and asked him to read it front-to-back one time. when finished, I gave the subject the programming task instructions, allowing him as much time as neccesary to read and understand the steps. When the subject confirmed that he had read and fully understood the instructions, I provided the subject access to the instruction page, user manual, and a python development environment and asked the subject to complete the programming task to the best of his ability. As the subject completed the steps, I recorded the total amount of time it took for him to complete each stage of the test, the amount of times per stage that he needed to access the user manual. After the test, I asked the subject for a short verbal reaction to each section of the manual.
+
+\section{Findings}
+
+The following is the data collected during the actual user test with subject Ben H.
+
+\vspace{.5em}
+\noindent
+\begin{tabular}{l | l l l }
+	              & time (sec) & references & comments \\\hline
+	comprehension & 102        & 4          & good explanation but nomenclature is hard to follow \\
+	iter          & 73         & 1          & file object initially confusing (\textit{guidance provided})\\
+	zip           & 130        & 2          & easy to understand \\
+	sort/lambda   & 362        & 7          & lambda is difficult to understand \\
+
+\end{tabular}
+
+\newpage
+\section{Recommendations}
+
+These results helped me understand that my explanations for the zip and sort iterator builtins are sufficient, while the manual sections for lambdas, iters, and comprehensions are too dense and are ineffective in some places. Furthermore, I now realize that I unreasonably assumed that a user learning about iterable builtins would know how to use a context manager in order to complete the 'iter' step (my guidance was briefly needed in this stage). To remedy these issues, I will make sure not to expect prior knowledge of Python with the exception of basic syntax and formatting (use cases beyond this get far too specialized; it's not reasonable to expect everyone to know anything other than the basics). Additionally, the subject got stuck specifically on the meaning of some parameters of lambdas and comprehensions. In the manual, I will devote more time to explaining the actual syntax rather than the implementation 'theory' for comprehensions, lambdas, and other builtin functions.
+
+\printbibliography
+\end{document}

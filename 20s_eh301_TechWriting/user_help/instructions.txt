@@ -1,0 +1,50 @@
+For Project Two in EH 301: Technical Writing, students will create software user help in two
+formats: a print-based user manual and a video tutorial. Projects can cover any software,
+website (Canvas, Word, Ebay, Pinterest, etc), or video game. Students should choose a software
+program they know well or one they want to learn.
+
+____________________________________
+Print-Based User Manual Requirements
+------------------------------------
+
+Students will create a short manual which can serve as either a quick start manual or a manual
+that covers a specific function or functions of a software (for example, running macros in Word,
+using formulas in Excel, setting up a Pinterest account, etc).
+
+The manual should include at least the following items:
+ > An explanation of the basics of the software program or website/specific function
+ > An introduction to the manual
+ > 5-10 tasks (such as "crop images" or "change account settings").
+    >> very short introduction
+    >> steps for completing the tasks
+    >> how the program should respond
+ > Screenshots that accompany tasks when appropriate
+
+Print-based help should be user-centered, task-based, clear, concise, consistent, informative,
+context-aware, and attractive. For more information about writing effective user help manuals,
+consult the textbook and this link on task-oriented tech writing (LINK).
+
+You may create a PDF manual for this requirement, or you may publish your user help as a website.
+If you create a website, you will probably want to put each task on its own page, much like the
+Facebook Help site (LINK).
+
+___________________________
+Video Tutorial Requirements
+---------------------------
+
+Students will also create a video tutorial using Screencast-o-matic (LINK), Jing (LINK),
+BandiCam (LINK), or another tutorial builder (LINK) (another list here (LINK)). Video tutorials
+should include animated screen capture (that allows users to view you completing actions on the
+screen) and narration. Each video should include at least the following content:
+
+ > A brief introduction to the tutorial that previews the tasks and explains why users might
+   find them helpful (and/or explains when users might actually use these tasks)
+ > Step-by-step instructions guiding users through 2-4 specific tasks
+
+Video tutorials should be user-centered, task-based, clear, concise, consistent, informative,
+context-aware, and attractive. Multimedia tutorials can include some of the same text as the
+print manual.
+
+The User Help Project is due by 11:59 on Friday, March 13. You must submit both a print manual
+AND a video tutorial for a chance at full credit on the project. Print manuals should be submitted
+as a pdf file (or a link). Video tutorials can be submitted as a URL or file.

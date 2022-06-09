@@ -1,0 +1,24 @@
+ > Assignment is intended as preparation for Module 8 usability test
+    >> Module 8 usability test is part of Project 2 (User Help Project)
+ > Tests video tutorial or user help manual
+ > List 2 to 4 objectives you intend to accomplish through investigation
+   via the user test
+ > User section is a demographic profile fo the user
+    >> inform the user that you are teseting the document, not them...
+       you can't do anything wrong as long as you follow directions
+ > Methods section: look into different methods of testing such as...
+    >> asking the user to think aloud through things
+    >> give user 2 versions of the same document and ask them to compare
+    >> ask user to mark anything that isn't immediately clear or is confusing
+    >> ask user to complete tasks from start to finish.
+       Note the fluidity of the process
+ > Discuss methods in detail that would allow someone
+   uninvolved to repeat the experiment
+ > Neccesary Equipment section just lists things needed to complete the test fully
+ > Data can be metrics in terms of time, number of errors, number of
+   reverting to previous steps, and subjective user satisfaction.
+
+Test plan:
+ > Have user open file in context manager as iterator object
+ > Use iterator to read numbers in, keeping the order they appear in the file
+ > Have user use a list comprehension to remove
